@@ -10,8 +10,6 @@ withDefaults(defineProps<{
   text: false,
   customText: 'DeFiVestor',
 });
-
-const branch = useRuntimeConfig().public.testing ? 'develop' : 'main';
 </script>
 
 <template>
@@ -22,24 +20,28 @@ const branch = useRuntimeConfig().public.testing ? 'develop' : 'main';
       class="flex items-center gap-2"
       v-bind="$attrs"
     >
-      <RuiLogo
-        :branch="branch"
-        logo="website"
+      <img
+        src="/img/logo-small.svg"
+        alt="DeFiVestor Logo"
+        class="h-8 w-auto"
       />
       <div class="font-bold text-xl text-rui-text">
         {{ customText }}
       </div>
     </div>
     <!-- Icon only when text prop is false -->
-    <RuiLogo
+    <img
       v-else
-      :branch="branch"
-      logo="website"
+      src="/img/logo-small.svg"
+      alt="DeFiVestor Logo"
+      class="h-8 w-auto"
       v-bind="$attrs"
     />
     <template #fallback>
-      <RuiLogo
-        class="opacity-0 invisible transition delay-1000"
+      <img
+        src="/img/logo-small.svg"
+        alt="DeFiVestor Logo"
+        class="h-8 w-auto opacity-0 invisible transition delay-1000"
         v-bind="$attrs"
       />
     </template>
