@@ -23,7 +23,7 @@ const { t } = useI18n({ useScope: 'global' });
         </template>
         <template #download>
           <ButtonLink
-            to="/download"
+            to="/get-started"
             inline
             color="primary"
             class="underline"

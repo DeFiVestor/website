@@ -35,7 +35,7 @@ const copyright = computed<string>(() => `© DeFiVestor Solutions GmbH 2018-${ye
             <ButtonLink
               color="primary"
               size="lg"
-              to="/download"
+              to="/get-started"
               rounded
               variant="filled"
             >

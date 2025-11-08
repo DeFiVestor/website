@@ -34,7 +34,7 @@ const data: { icon: RuiIcons; text: string; tooltip: string }[] = [
         {{ t('home.hero.motto') }}
       </h5>
       <ButtonLink
-        to="/download"
+        to="/get-started"
         size="lg"
         color="primary"
         rounded

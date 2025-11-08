@@ -5,7 +5,7 @@ const { t } = useI18n({ useScope: 'global' });
 <template>
   <PlanBox
     :action="t('actions.start_now_for_free')"
-    url="/download"
+    url="/get-started"
     button-variant="outlined"
   >
     <template #title>

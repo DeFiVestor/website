@@ -6,7 +6,7 @@ import { commonAttrs, getMetadata } from '~/utils/metadata';
 
 useHead({
   title: 'download',
-  meta: getMetadata('rotki', 'Download rotki', '/download'),
+  meta: getMetadata('rotki', 'Download rotki', '/get-started'),
   ...commonAttrs(),
 });
 

@@ -33,7 +33,7 @@ const { t } = useI18n({ useScope: 'global' });
     <ButtonLink
       v-if="!onlyPremium"
       variant="outlined"
-      to="/download"
+      to="/get-started"
       size="lg"
       :color="color"
       :class="{ '!outline-white !text-rui-dark-text': !color }"

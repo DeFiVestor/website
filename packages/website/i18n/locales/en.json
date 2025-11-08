@@ -145,56 +145,56 @@
     "welcome": "Welcome"
   },
   "accounting": {
-    "title": "Your Crypto Accounting, Done Right, By the People Who Built rotki",
-    "intro": "Crypto accounting isn’t plug-and-play. Every portfolio is unique, and getting it right means going deep: cleaning messy data, classifying complex events and ensuring your numbers actually make sense. Since 2017, rotki has helped users take control of their crypto finances. Now, for those who need hands-on help, we offer bespoke accounting services using rotki itself and tailored scripts to deliver complete, accurate results.",
+    "title": "Powering the Future of DeFi Investment",
+    "intro": "DeFiVestor is more than an investment platform — it’s your gateway to smarter, safer, and more profitable participation in decentralized finance. We combine deep analytics, automation, and human insight to help users navigate DeFi with confidence and clarity.",
     "services": {
       "tailored": {
-        "title": "Tailored To Your Needs",
-        "description": "No two portfolios are the same. We work with your exact data, wallets, CSVs, DeFi positions, NFTs and customize every step to match your accounting requirements."
+        "title": "DeFi Portfolio Management",
+        "description": "Take complete control of your digital wealth with one dashboard that unifies all your DeFi assets. Track tokens, liquidity pools, yield farms, and staking rewards across multiple chains — all in real time. DeFiVestor helps you see where your money is, how it’s performing, and how to optimize your portfolio for maximum growth."
       },
       "scripts": {
-        "title": "Built on rotki + Scripts",
-        "description": "We use rotki as the accounting engine, enhanced with custom scripts and tooling tailored to your case. The result: accurate, explainable data that you can use for your specific use case. You get both the data back and the scripts we made for you for reproducability."
+        "title": "Automated Yield Optimization",
+        "description": "Let smart algorithms do the heavy lifting. Our AI-driven optimization engine analyzes top DeFi protocols to automatically suggest — or even execute — the most rewarding opportunities for your assets. From liquidity provision to staking, DeFiVestor ensures your capital never sits idle."
       },
       "hands_on": {
-        "title": "Hands-On Service",
-        "description": "This isn’t SaaS. It's a service. We work directly with you: identify edge cases, fix data problems, label transactions, track missing histories, and explain every number."
+        "title": "Risk Intelligence & Analytics",
+        "description": "DeFi can be unpredictable — but your decisions don’t have to be. DeFiVestor’s analytics engine provides deep insights into asset volatility, protocol health, liquidity stability, and smart contract risks. With real-time alerts and risk scoring, you can invest boldly while staying protected."
       },
       "privacy": {
-        "title": "Privacy First, Always",
-        "description": "Your data stays with us. No uploads to third-party cloud tools. Everything is processed locally or on secure infrastructure we control. Your data is all deleted once we complete the job for you. Your privacy and peace of mind is our top priority."
+        "title": " Institutional & Retail Investment Support",
+        "description": "Whether you’re an individual investor or a fund, DeFiVestor provides the tools to scale. Manage multiple wallets, customize strategies, and access institutional-grade reporting. We empower both solo traders and professional managers to thrive in DeFi with transparency and efficiency."
       }
     },
     "formalization": {
       "title": "Our Approach",
-      "description": "rotki has always been about empowering users with accurate, private, local-first accounting tools. But not everyone has the time or expertise to dig into every transaction, match LP positions, or chase down lost CSVs. If you want your crypto accounting done with you or for you, using the same tools we’ve built and trusted for years, we’re here to help. We’ve worked with individuals, teams, and DAOs to get their books in order, clean, audit-ready, and future-proof. Not by using generic tax software but just with a deep understanding of the crypto landscape and a commitment to doing it right."
+      "description": "At DeFiVestor, we believe decentralized investment should be accessible to everyone — not just crypto experts. That’s why our platform combines simplicity with sophistication. Every service we offer is built around three principles: Transparency, where every transaction and yield source is verifiable on-chain; Automation, with AI and analytics working in the background to save you time and effort; and Empowerment, ensuring you stay in control with full visibility and ownership of your assets. We don’t just help you invest — we help you understand, optimize, and grow sustainably in the evolving DeFi economy."
     },
     "contact": {
-      "message": "Or, you can email us at {email} with a short summary of your situation."
+      "message": "Includes a full DeFi health check, portfolio review, and custom investment blueprint with a short summary of your situation."
     },
     "pricing": {
-      "title": "Pricing",
-      "intro": "Crypto accounting is complicated. We make it simple, by doing it right. This is a premium, hands-on service where we take your data, analyze it in depth, and deliver clear, accurate results you can trust.",
+      "title": "Consultation Services",
+      "intro": "Want to get started but unsure where to begin? DeFiVestor offers one-on-one consultation sessions with our investment specialists to help you build a personalized DeFi roadmap. Whether you’re new to decentralized finance or managing an existing portfolio, we’ll guide you through asset allocation, risk management, and protocol selection.",
       "initial_consultation": {
         "excluding_vat": "(excl. VAT)",
         "title": "Initial Consultation",
-        "price": "€300",
+        "price": "$100",
         "per_hour": "/hour",
-        "description": "The initial consultation takes from 1-3 hours on average. We'll dig into your portfolio: review your rotki data, check your wallets, exchanges, and DeFi activity, and map out what needs to be done. You'll get a clear plan and an honest assessment of the work involved."
+        "description": "The initial consultation takes from 1-3 hours on average. We'll dig into your portfolio: review your DeFiVestor data, check your wallets, exchanges, and DeFi activity, and map out what needs to be done. You'll get a clear plan and an honest assessment of the work involved."
       },
       "custom_quote": {
-        "title": "Custom Quote for the Full Job",
-        "description": "After the consultation, we'll give you a tailored offer based on your situation. Not vague promises but just a fair price for the actual time and complexity. Whether it's a cleanup, a full accounting year, or ongoing help, we'll scope it together."
+        "title": "Tailored to Your Goals",
+        "description": "We don’t believe in one-size-fits-all investing. Every session is designed around your experience level, financial goals, and preferred risk tolerance — ensuring your DeFi journey is personal, informed, and strategic."
       },
       "transparent_fair": {
-        "title": "Transparent and Fair",
-        "description": "If you decide not to proceed after the initial consultation, that's perfectly fine. You'll still leave with a clearer understanding of your accounting situation."
+        "title": "Expert Guidance for Real Growth",
+        "description": "Our specialists analyze live data from your wallets and the market to provide actionable insights. You’ll leave each session with a clear, data-driven plan for building stronger returns while minimizing risk."
       }
     },
     "important_note": {
       "title": "Important note",
-      "paragraph1": "This is a crypto accounting and data preparation service. We help you organize, clean, and analyze your financial history so you (or your tax advisor) have a clear and complete picture.",
-      "paragraph2": "We do not provide tax advice or file tax returns. For filing taxes, we recommend working with a qualified tax professional in your jurisdiction who can use the data we prepare for you. We can also work directly with your tax advisor if you need us to."
+      "paragraph1": "DeFiVestor’s consultation service is designed to help you make sense of your decentralized financial journey. We provide comprehensive crypto accounting, portfolio analysis, and data preparation to ensure your investment records are accurate, organized, and ready for strategic use. Our goal is to help you and your financial advisors gain a clear understanding of your complete on-chain and off-chain activity — from trading and yield farming to staking and liquidity positions.",
+      "paragraph2": "Please note that we do not offer tax advice or file tax returns. Instead, we equip you with professionally structured data and reports that your accountant or tax expert can easily interpret. If needed, our team can collaborate directly with your financial advisor or tax professional, ensuring a smooth, transparent process that saves you time and eliminates confusion when managing your DeFi investments."
     }
   },
   "account_details": {
@@ -665,6 +665,7 @@
       "description": "Latest news and updates on rotki",
       "title": "Blog"
     },
+    "get_started": "Get Started",
     "company": "Company",
     "documentation": {
       "description": "Everything you need to know about the app",
@@ -718,99 +719,99 @@
     }
   },
   "products": {
-    "description": "Elevate your financial management with rotki premium, our exclusive subscription offering. Gain access to advanced tools and features designed to enhance the management of your portfolio and investments.",
+    "description": "DeFiVestor is your all-in-one decentralized investment hub — built to simplify how you track, analyze, and grow your digital wealth. Whether you’re just starting out or managing a complex portfolio, DeFiVestor brings every asset, trade, and yield together with real-time analytics and AI-driven insights. No more spreadsheets or fragmented tools — just clarity, control, and confidence in every move you make. DeFiVestor helps you understand your performance, predict market shifts, and make smarter, data-backed decisions — all in one powerful, transparent platform.",
     "features": {
       "analytics": {
         "asset_amount_and_value": {
-          "description": "Access comprehensive analytics, including net value and asset amount over time for each owned asset.",
-          "title": "Asset tracking"
+          "description": "DeFiVestor’s AI analyzes on-chain data, market sentiment, and protocol performance to generate actionable insights. From identifying high-yield pools to warning about rug-pull risks, our AI helps you act intelligently, not impulsively.",
+          "title": "AI-Driven Investment Insights"
         },
         "distribution_assets": {
-          "description": "View a distribution pie chart of your net value per assets.",
-          "title": "Value distribution (assets)"
+          "description": "Measure your exposure across assets, sectors, and chains. DeFiVestor helps you understand how much risk you carry in stablecoins, volatile tokens, or leveraged positions — giving you the clarity to rebalance your portfolio confidently.",
+          "title": "Risk & Exposure Analysis (assets)"
         },
         "distribution_locations": {
-          "description": "View a distribution pie chart of your net value per location (exchanges, blockchain accounts, banks, etc.).",
-          "title": "Value distribution (locations)"
+          "description": "View your investment journey with rich data visualizations. DeFiVestor shows how your net worth and holdings evolved over time, helping you see which strategies worked best — and when to pivot for maximum return.",
+          "title": "Historical Data & Performance (Trends)"
         },
         "events_analysis": {
-          "description": "View a summary of your activities, including ETH spent, exchanges/protocols used, and Gnosis Pay usage.",
-          "title": "Events analysis"
+          "description": "Beyond DeFi wallets, DeFiVestor connects to leading centralized exchanges to aggregate all your assets in one place. Track trades, deposits, and withdrawals across CEXs like Binance and Coinbase alongside your DeFi activity — one clear balance sheet, total control.",
+          "title": "Multi-Wallet & Exchange Syncing"
         },
         "heading": "Enhanced Data Insights",
         "title": "Graphs & Analytics"
       },
       "detailed_graphs": {
-        "description": "Access a wide array of analytics and graphs. Analyze your total net value over time, asset value distributions, and the worth distribution per asset or location.",
-        "title": "Detailed Graphs"
+        "description": "Never miss your rewards again. DeFiVestor continuously monitors your staking, lending, and yield farming positions, showing pending and claimed rewards with estimated APY and ROI projections. Your income streams are automatically tracked and visualized — effortlessly.",
+        "title": "Automated Yield & Staking Monitoring"
       },
       "enriched_transactions": {
-        "description": "Connect your Monerium and Gnosis Pay accounts to automatically enrich your blockchain transactions with detailed metadata, including bank transfer details, credit card merchant data, and payment descriptions.",
-        "title": "Enriched protocol transactions"
+        "description": "Connect your wallet once, and DeFiVestor automatically pulls in balances, historical transactions, and liquidity positions. Whether you use MetaMask, WalletConnect, or hardware wallets, integration is seamless — with full privacy and zero custody over your keys.",
+        "title": "Smart DeFi Wallet Syncing & Enrichment"
       },
       "events_analysis": {
-        "description": "View detailed insights about your activities, including ETH spent, exchanges/protocols used, number of transactions per chain, and Gnosis Pay usage.",
-        "title": "Events Analysis"
+        "description": "DeFiVestor believes in verifiable trust. Every transaction, action, and data point is recorded and sourced directly from the blockchain — no intermediaries, no manipulation, no hidden APIs. You see the truth, backed by cryptographic evidence.",
+        "title": "On-Chain Transparency & Security"
       },
       "higher_limits": {
-        "description": "Say goodbye to limits. With rotki Premium, you can process more trades, transactions, deposits/withdrawals, and historic events. The limits increase with each premium tier, providing greater flexibility and control.",
-        "title": "Higher Limits"
+        "description": "Stay on top of your wealth with a dynamic view of your total DeFi net worth. Track profit and loss across wallets, exchanges, and timeframes — including unrealized gains, staking rewards, and impermanent losses. DeFiVestor’s precision analytics helps you know what’s growing, what’s lagging, and why.",
+        "title": "Real-Time Net Worth & PnL Tracking"
       },
       "limits": {
         "heading": "Expanded Capabilities for Premium Users",
         "history_view": {
-          "description": "Free users have a limit of the 100 most recent events in the history event viewer. As a premium user you have higher limits in the amount of events you can see.",
-          "title": "History view"
+          "description": "Plan your next move before executing. With DeFiVestor’s backtesting engine, you can simulate how yield farming or token strategies would perform based on historical data. Optimize your future profits by learning from the past — without risking real capital.",
+          "title": "Strategy Builder & Backtesting"
         },
         "profit_loss_report": {
-          "description": "Free users are limited to the 100 most recent events in profit & loss report. Premium users benefit from higher limits for viewing events in profit & loss report.",
-          "title": "Profit & loss report events"
+          "description": "Stay connected to the DeFi pulse. Our curated intelligence feed aggregates insights from top analysts, communities, and DAOs, helping you discover new trends, tokens, and protocols before they explode.",
+          "title": "DeFi Social Intelligence Feed"
         },
         "title": "Increased limits",
         "user_notes": {
-          "description": "Free users can add up to 10 notes. As a premium user, you have higher limits on the number of notes you can add.",
-          "title": "User notes"
+          "description": "Let DeFiVestor’s AI rebalance your portfolio based on your target risk ratio. Whether you want to maintain stablecoin security or chase growth opportunities, automated rebalancing ensures your capital allocation stays aligned with your goals.",
+          "title": "Automated Portfolio Rebalancing"
         },
         "validators": {
-          "description": "Free users can only see 4 Ethereum validators. Premium users enjoy higher limits on the number of Ethereum validators visible.",
-          "title": "Ethererum Validators"
+          "description": "Vote on DeFi proposals directly through DeFiVestor. Track your governance tokens, participate in DAO decisions, and monitor your influence across decentralized communities — all from one dashboard.",
+          "title": "Governance & DAO Participation Hub"
         }
       },
       "monerium_and_backup": {
         "data_synchronization": {
-          "description": "As a premium user, you can upload your encrypted database to our server, synchronize it across devices, and use it as a backup. Your data remains encrypted with your password, ensuring privacy. Synced databases are automatically deleted one month after your subscription expires.",
-          "title": "Data synchronization"
+          "description": "Whether you’re new to DeFi or a veteran yield farmer, DeFiVestor’s support team and resource library help you navigate complex concepts with clarity. We’re your partner in financial decentralization.",
+          "title": "Dedicated Support & Knowledge Base"
         },
         "heading": "Enrich Transactions and Synchronize Data",
         "monerium_api_keys": {
-          "description": "Once you provide Monerium credentials as a premium user, all Monerium transactions on mainnet, Polygon, and Gnosis chain will be enriched with bank transfer data or chain bridging information.",
-          "title": "Monerium API Keys"
+          "description": "DeFiVestor is built for the evolving DeFi world. With continuous integration of new chains, tokens, and protocols, your portfolio will always stay ahead of the curve. You invest in the future — we make sure your tools keep up.",
+          "title": "Future-Proof Scalability"
         },
         "title": "Monerium API Integration and Premium Data Backup"
       },
       "staking": {
-        "description": "Track your staking activities across various chains and platforms like ETH, Liquity, Kraken, and more. Get detailed insights on total gains, performance, rewards breakdown, and individual staking events.",
-        "title": "Staking"
+        "description": "Seamlessly connect to Ethereum, BNB Chain, Polygon, Arbitrum, Avalanche, Base, and dozens more. DeFiVestor automatically detects and syncs your activity across major DeFi protocols like Aave, Uniswap, Curve, and Compound, ensuring your data is complete and real-time accurate.",
+        "title": "Multi-Chain & Multi-Protocol Integration"
       },
       "sync_db_with_server": {
-        "description": "Effortlessly back up your data to our cloud and sync or restore it across multiple devices. Your data is encrypted and can only be decrypted with your password, ensuring complete privacy.",
-        "title": "Sync data across multiple machines"
+        "description": "DeFiVestor brings your decentralized world into one intuitive view. Connect wallets across multiple chains and instantly see every asset, protocol, and position you hold — from tokens and LPs to staked rewards and yield farms. No switching between platforms; your entire DeFi life is now in one smart, elegant dashboard.",
+        "title": "Unified DeFi Portfolio Dashboard"
       },
       "theme_customization": {
-        "description": "Reduce eye strain, improve text readability, and prolong your device's battery life with dark mode. Personalize the color scheme for both light and dark modes, and customize specific color palettes for the app theme within the settings",
-        "title": "Dark mode & theme customization"
+        "description": "Stay ahead of the market with smart alerts for portfolio changes, gas spikes, price thresholds, or liquidation risks. DeFiVestor notifies you instantly when your portfolio needs attention — so you can act fast and smart.",
+        "title": "Custom Alerts & Notifications"
       },
       "timeframe": {
-        "description": "Set the timeframe for the dashboard graph. Premium users have access to all options, while free users can choose between only \"2 Weeks\", and \"1 Week\".",
+        "description": "Simplify crypto tax season. Generate automated gain/loss and transaction summaries compliant with global tax frameworks. DeFiVestor saves you from complex spreadsheet chaos and gives your accountant clean, exportable data.",
         "heading": "Enhanced Customization Options",
-        "title": "Timeframe Customization on Dashboard"
+        "title": "DeFi Tax Reporting & Compliance Tools"
       }
     },
     "footer": {
       "description": "Upgrade to rotki premium today and take your financial management to the next level. Enjoy enhanced features, greater flexibility, and exclusive perks designed for the modern investor."
     },
-    "heading": "Unlock the Full Potential of rotki with Premium Features",
-    "title": "Upgrade rotki today",
+    "heading": "The Future of DeFi Investment — Intelligent, Transparent, and Effortless",
+    "title": "Smarter insights, stronger portfolios, complete control",
     "unlock": {
       "description": "Unlock the full potential of rotki with a premium subscription. Whether you're a seasoned investor or just starting out, rotki premium provides the tools and resources you need to succeed in today's dynamic financial landscape.",
       "title": "Unlock Premium Features"

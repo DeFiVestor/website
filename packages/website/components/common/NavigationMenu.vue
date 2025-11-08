@@ -52,11 +52,6 @@ const baseMenus: (Menu | MenuParent)[] = [
     highlightActive: true,
   },
   {
-    label: t('navigation_menu.download'),
-    to: '/download',
-    highlightExactActive: true,
-  },
-  {
     label: t('navigation_menu.resources'),
     children: [
       {
@@ -72,6 +67,11 @@ const baseMenus: (Menu | MenuParent)[] = [
         external: true,
       },
     ],
+  },
+  {
+    label: t('navigation_menu.get_started'),
+    to: '/get-started',
+    highlightExactActive: true,
   },
 ];
 
