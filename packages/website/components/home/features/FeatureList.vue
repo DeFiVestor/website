@@ -70,7 +70,7 @@ const [DefineTab, ReuseTab] = createReusableTemplate<{
           tag="h4"
           keypath="home.rotki_offer"
         >
-          <span class="text-rui-primary">rotki</span>
+          <span class="text-rui-primary">DeFiVestor</span>
         </i18n-t>
         <div
           class="flex gap-4 overflow-x-auto lg:overflow-x-hidden no-scrollbar"

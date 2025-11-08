@@ -41,4 +41,5 @@ definePageMeta({
     </div>
   </div>
   <IntegrationDetails />
+  <ProductsFooter />
 </template>

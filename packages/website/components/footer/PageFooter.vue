@@ -11,7 +11,7 @@ withDefaults(
 const { t } = useI18n({ useScope: 'global' });
 
 const year = new Date().getFullYear().toString();
-const copyright = computed<string>(() => `© Rotki Solutions GmbH 2018-${year}.`);
+const copyright = computed<string>(() => `© DeFiVestor Solutions GmbH 2018-${year}.`);
 </script>
 
 <template>

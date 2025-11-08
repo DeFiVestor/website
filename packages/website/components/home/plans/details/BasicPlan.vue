@@ -17,7 +17,7 @@ const startingPrice = computed(() => {
   if (!plansVal || plansVal.length === 0)
     return '';
 
-  return `${plansVal.find(item => item.months === 1)?.priceFiat || ''}€`;
+  return `$${plansVal.find(item => item.months === 1)?.priceFiat || ''}`;
 });
 </script>
 

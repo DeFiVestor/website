@@ -11,7 +11,7 @@ const title = 'Bespoke Accounting Service';
 
 useHead({
   title,
-  meta: getMetadata(title, 'rotki bespoke accounting service - Deep expertise in crypto accounting since 2017', '/bespoke'),
+  meta: getMetadata(title, 'rotki services accounting service - Deep expertise in crypto accounting since 2017', '/bespoke'),
   ...commonAttrs(),
 });
 
@@ -207,4 +207,5 @@ const services = computed(() => [
       </RuiAlert>
     </div>
   </div>
+  <ProductsFooter />
 </template>

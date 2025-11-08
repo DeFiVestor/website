@@ -70,7 +70,7 @@ function click() {
       v-if="plan.originalPrice"
       class="text-base text-rui-text-secondary line-through font-normal opacity-70 h-6 mb-1"
     >
-      {{ plan.originalPrice }}€
+      ${{ plan.originalPrice }}
     </div>
     <div
       v-else
@@ -78,11 +78,11 @@ function click() {
     />
 
     <div class="font-black text-[2.5rem] leading-none text-rui-text">
-      {{ totalPrice }}€
+      ${{ totalPrice }}
     </div>
 
     <div class="text-sm text-rui-text-secondary mt-3 mb-4 font-normal flex flex-col justify-start h-[2.75rem]">
-      <div>{{ price }}€/{{ t('home.plans.per_month') }}</div>
+      <div>${{ price }}/{{ t('home.plans.per_month') }}</div>
       <div
         v-if="plan.freeMonths"
         class="text-xs text-red-600"

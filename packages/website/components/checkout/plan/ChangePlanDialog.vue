@@ -69,7 +69,7 @@ onMounted(async () => await store.getPlans());
         <div :class="$style.name">
           {{ t('home.plans.names.plan', { name: getPlanName(plan.months) }) }}
         </div>
-        {{ plan.priceFiat }}€
+        ${{ plan.priceFiat }}
         <span v-if="vat">+ {{ t('common.vat', { vat }) }}</span>
         {{
           t(

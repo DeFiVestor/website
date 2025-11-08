@@ -43,9 +43,9 @@ const vatOverview = computed(() => {
               {{ planData.months === 12 ? '1 year (12 months) recurring subscription' : '1 month recurring subscription' }}
             </div>
             <div class="mt-3">
-              Price: <span class="font-bold">{{ planData.finalPriceInEur }} €</span>
+              Price: <span class="font-bold">${{ planData.finalPriceInEur }}</span>
               <template v-if="vatOverview">
-                ({{ vatOverview.priceInEur }} + {{ vatOverview.vat }}% VAT)
+                (${{ vatOverview.priceInEur }} + {{ vatOverview.vat }}% VAT)
               </template>
             </div>
             <div>

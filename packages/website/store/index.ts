@@ -10,7 +10,8 @@ import { useAccountApi } from '~/composables/use-account-api';
 import { useAccountRefresh } from '~/composables/use-app-events';
 import { useAuthApi } from '~/composables/use-auth-api';
 import { useFetchWithCsrf } from '~/composables/use-fetch-with-csrf';
-import { usePaymentApi } from '~/composables/use-payment-api';
+
+// import { usePaymentApi } from '~/composables/use-payment-api'; // Commented out since no longer used
 import { useLogger } from '~/utils/use-logger';
 
 const SESSION_TIMEOUT = 3600000;
@@ -29,7 +30,7 @@ export const useMainStore = defineStore('main', () => {
   // API composables
   const accountApi = useAccountApi();
   const authApi = useAuthApi();
-  const paymentApi = usePaymentApi();
+  // const paymentApi = usePaymentApi(); // Commented out since no longer used
   const { onRefresh } = useAccountRefresh();
 
   const getAccount = async (): Promise<void> => {
@@ -76,11 +77,22 @@ export const useMainStore = defineStore('main', () => {
       return;
     }
 
-    const plansData = await paymentApi.getPlans();
-    if (plansData) {
-      set(plans, plansData.filter(plan => plan.months === 1 || plan.months === 12));
-      set(authenticatedOnPlansLoad, get(authenticated));
-    }
+    // Local premium plans data (no API call)
+    const localPlans: Plan[] = [
+      {
+        months: 1,
+        priceFiat: '1,000',
+        discount: 0,
+      },
+      {
+        months: 12,
+        priceFiat: '1000.00',
+        discount: 0,
+      },
+    ];
+
+    set(plans, localPlans);
+    set(authenticatedOnPlansLoad, get(authenticated));
   };
 
   function getPendingSubscription({ amount, date, duration }: {

@@ -41,4 +41,5 @@ definePageMeta({
   <Testimonials />
   <PremiumFeatures />
   <AvailablePlans />
+  <ProductsFooter />
 </template>

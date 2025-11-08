@@ -40,7 +40,7 @@ const baseMenus: (Menu | MenuParent)[] = [
       },
       {
         label: t('navigation_menu.accounting_service'),
-        to: '/bespoke',
+        to: '/services',
         highlightActive: true,
       },
     ],

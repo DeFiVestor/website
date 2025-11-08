@@ -30,7 +30,7 @@ const menus: MenuGroup[] = [
       },
       {
         label: t('navigation_menu.accounting_service'),
-        to: '/bespoke',
+        to: '/services',
         highlightActive: true,
       },
       {

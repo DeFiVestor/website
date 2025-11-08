@@ -395,94 +395,94 @@
   "home": {
     "advantages": {
       "local_app": {
-        "description": "rotki is a local-first application with a strong focus on user privacy.",
-        "title": "Self-hosted app"
+        "description": "With DeFiVestor, you control your wealth. No middlemen, no hidden fees, no restrictions — just pure access to decentralized investment opportunities designed to give power back to you.",
+        "title": "Decentralization"
       },
       "open_source": {
-        "description": "rotki's source code is available to inspect, modify and enhance.",
-        "title": "Open source"
+        "description": "We believe real trust in finance comes from visibility, not promises. DeFiVestor operates on open protocols and verifiable data — giving you full transparency into how your assets are managed and where your returns come from.",
+        "title": "Transparency"
       },
       "own_your_data": {
-        "description": "Your financial data is kept encrypted in your system and not shared with third parties.",
-        "title": "Own your data"
+        "description": "DeFiVestor uses smart analytics and automated investment strategies to help you make informed decisions and maximize returns. Whether you’re a beginner or an experienced investor, our intelligent system guides your path to financial growth.",
+        "title": "Intelligence"
       }
     },
     "dashboard": {
       "details": {
         "asset_and_liabilities": {
-          "description": "View all of your assets and liabilities and your exposure to each as a percentage of your net worth.",
+          "description": "See your entire decentralized portfolio in one view. DeFiVestor helps you understand your assets, liabilities, and exposure across blockchains and tokens — giving you real-time insights into your net worth. Stay informed, stay balanced, and make smarter investment decisions.",
           "title": "Assets and Liabilities"
         },
         "net_worth_over_time": {
-          "description": "Users can also see a graph of how their total net worth is evolving over time. Free users are limited to the last 2 weeks.",
+          "description": "Track your financial growth like never before. DeFiVestor visualizes how your net worth changes over time, helping you monitor gains, losses, and long-term trends. Free users can view the past two weeks, while premium investors unlock full analytics to guide smarter DeFi strategies.",
           "title": "Net worth over time"
         }
       },
-      "subtitle": "A 360° overview of your assets",
-      "title": "Dashboard"
+      "subtitle": "DeFiVestor is designed for everyone. Whether you’re a DeFi pro or a first-time investor, our simple dashboard lets you buy, track, and manage decentralized assets without needing to code or connect to confusing wallets.",
+      "title": "Control Without Complexity"
     },
     "history_events": {
-      "subtitle": "View all historical events including, transactions, trades, deposits, withdrawals and more.",
-      "title": "History events",
+      "subtitle": "Every transaction, yield, and portfolio action is recorded on-chain. No hidden fees, no manipulation, no surprises — just 100% clarity.",
+      "title": "Transparency You Can Trust",
       "key_features": "Key Features",
       "features": {
         "comprehensive": {
           "title": "Comprehensive Transaction History",
-          "description": "View all historical transactions, including trades, transfers, and fees."
+          "description": "Get a complete overview of every transaction — from swaps and liquidity adds to staking rewards and withdrawals — all tracked and displayed in one unified timeline."
         },
         "categorization": {
-          "title": "Event Categorization",
-          "description": "Automatically classify transactions into deposits, withdrawals, trades, staking, and more."
+          "title": "Smart Categorization",
+          "description": "Transactions are automatically sorted into key event types such as trades, staking, farming, borrowing, and lending, making your DeFi activity easy to understand at a glance."
         },
         "customizable": {
-          "title": "Customizable history",
-          "description": "Manually adjust or add missing transactions to ensure accuracy."
+          "title": "Custom Adjustments",
+          "description": "Add or modify entries to keep your portfolio data perfectly accurate, even when using new or experimental protocols."
         },
         "filter": {
-          "title": "Filter & Search",
-          "description": "Easily find specific events using filters by date, asset, protocol, event type and more."
+          "title": "Advanced Filters",
+          "description": "Quickly locate any transaction using filters like date range, asset type, protocol, or category to simplify analysis."
         },
         "csv_export": {
-          "title": "CSV Export",
-          "description": "Export historical event data for external analysis or tax reporting."
+          "title": "Performance Insights",
+          "description": "Instead of exports, DeFiVestor gives you real-time performance analytics — helping you visualize returns, identify high-performing assets, and make informed reinvestment decisions instantly."
         }
       }
     },
     "evm_protocols": {
-      "subtitle": "Manage assets across multiple protocols across EVM networks.",
-      "title": "EVM protocols",
+      "subtitle": "DeFiVestor isn’t owned by a few — it’s governed by its users. Through our upcoming DAO framework, investors will have a voice in how the ecosystem evolves.",
+      "title": "Community-Governed Growth",
       "key_features": "Key Features",
       "features": {
         "multi_chain_support": {
-          "title": "Multi-Chain Support",
-          "description": "Track assets across Ethereum and EVM-compatible chains like Polygon, BSC, and Arbitrum."
+          "title": "Multi-Chain Intelligence",
+          "description": "Seamlessly track and manage your DeFi assets across major networks like Ethereum, Polygon, BNB Chain, Arbitrum, and more — all from a single, unified dashboard."
         },
         "automatic_activity_importing": {
-          "title": "Automatic Activity Importing",
-          "description": "Sync wallet activity directly from the blockchain."
+          "title": "Real-Time Portfolio Sync",
+          "description": "Automatically import wallet activities directly from the blockchain, keeping your investments and balances fully updated without manual input."
         },
         "defi_balances": {
-          "title": "DeFi Balances Monitoring",
-          "description": "View balances and positions in lending, borrowing, and liquidity pools."
+          "title": "DeFi Portfolio Insights",
+          "description": "Monitor your entire decentralized portfolio — lending, borrowing, liquidity pools, and yield-earning positions — with live data and visual clarity."
         },
         "staking_yield": {
-          "title": "Staking & Yield Farming",
-          "description": "Keep tabs on rewards from staking and yield-generating protocols."
+          "title": "Earnings Tracking",
+          "description": "Stay on top of your staking rewards and yield farming returns, with automated calculations showing your total gains and performance trends."
         },
         "historical_data": {
-          "title": "Historical Data & PnL",
-          "description": "Analyze past transactions and profit/loss from DeFi interactions."
+          "title": "Performance Analytics",
+          "description": "Access a clear breakdown of your profit and loss across time, chains, and protocols to refine your investment strategy and grow with confidence."
         }
       }
     },
     "exchanges": {
-      "detail": "Connect to a big number of centralized exchanges and inspect current balances, historical trades, deposits and withdrawals.",
-      "subtitle": "Connect to a big number of centralized exchanges",
-      "title": "Exchanges"
+      "detail": "DeFiVestor connects seamlessly to a wide range of centralized exchanges, giving you a complete picture of your trading activity in one place. Instantly view your current balances, monitor open positions, and explore your entire transaction history — including past trades, deposits, and withdrawals.",
+      "subtitle": "Access multiple DeFi protocols, liquidity pools, and staking platforms from a single place. We aggregate the best-performing opportunities so you can invest in what matters — safely and strategically.",
+      "title": "Diversify Effortlessly"
     },
     "hero": {
-      "motto": "rotki is an open source, self-hosted portfolio manager, accounting and analytics tool that protects your privacy.",
-      "title": "Take control of your portfolio with unmatched privacy"
+      "motto": "DeFiVestor is where the future of investing lives. A Decentralized Investment Platform that puts you — not the bank, not an institution — in full control of your financial growth.",
+      "title": "Empowering everyday users to invest in decentralized finance."
     },
     "plans": {
       "cannot_continue": "You cannot continue because you have an active subscription. Click here to",
@@ -498,8 +498,8 @@
           "title": "Want a custom tailored plan?"
         },
         "free": {
-          "price": "Free",
-          "subtitle": "Anyone can download the application and start using it for free.",
+          "price": "$100",
+          "subtitle": "Get started with our essential DeFiVestor plan for just $100 per month.",
           "title": "Starter Plan"
         },
         "premium": {
@@ -575,46 +575,46 @@
     "premium_features": {
       "features": {
         "dex_support": {
-          "detail": "See how much you have in each liquidity pool. All your LP join/exit events are shown along with the total profit/loss per pool.\n\nDEX trades are taken into account in the tax report for premium users.",
-          "title": "Decentralized exchanges"
+          "detail": "DeFiVestor isn’t just a platform — it’s a movement. We provide tutorials, insights, and a vibrant community to help you understand decentralized finance, share strategies, and invest confidently alongside others.",
+          "title": "Education & Community Support"
         },
         "graphs_and_statistics": {
-          "detail": "Premium users can visit the graphs/statistics page and get graphs for:\nNet worth over time\nAsset amount and total asset value over time\nBreakdown of total net worth per location\nBreakdown of total net worth per asset",
-          "title": "Graphs and statistics"
+          "detail": "DeFi moves fast, but we help you stay ahead. Get early access to vetted projects, high-yield staking pools, and new decentralized assets — all reviewed for credibility and performance.",
+          "title": "Access to Top DeFi Opportunities"
         },
         "history": {
-          "detail": "Free users have a limit on the number of transactions, deposits, withdrawals and other events they can see and process. Premium users have higher limits.",
-          "title": "Higher limits for trades, transactions, deposits and withdrawals"
+          "detail": "Your assets stay in your control. Every transaction is recorded on-chain, ensuring complete transparency. We never hold your funds — you invest directly from your wallet with total security and visibility.",
+          "title": "Secure, Transparent, and Non-Custodial"
         },
         "premium_defi": {
-          "detail": "See the entire list of activities you have done when interacting with a DeFi protocol. Get the profit/loss report for each protocol. Set watchers for various protocols to be informed via email when certain conditions are met.",
-          "title": "DeFi historical accounting, profit and loss"
+          "detail": "Let smart algorithms work for you. Our intelligent investment engine automatically diversifies your portfolio, tracks performance, and optimizes returns across multiple DeFi protocols — so you can grow your assets effortlessly.",
+          "title": "Automated Portfolio Growth"
         },
         "premium_staking": {
-          "detail": "See how much of the token is staked per account.\nWhat is the expected APR.\nHow much of the token you have earned by staking across all accounts.\n\nSee a list of all your staking events with links to the corresponding transactions.",
-          "title": "Advanced staking"
+          "detail": "We make decentralized finance easy to understand and even easier to use. Whether you’re new to crypto or an experienced investor, DeFiVestor gives you a clean, guided experience for staking, liquidity pools, and yield opportunities — all in one place.",
+          "title": "Simplified DeFi Investing"
         }
       },
-      "subtitle": "Enjoy all the potential that rotki offers.",
+      "subtitle": "Unlock the full power of DeFiVestor and experience everything our platform has to offer.",
       "title": "Premium features"
     },
     "profit_loss_report": {
       "details": {
         "pnl_explanation": {
-          "title": "Profit/loss report for your historical data",
-          "description": "A profit/loss report across all the user’s assets, protocols, exchanges and blockchains is created for the given time range. The results can be exported into a CSV file which can later be imported to a spreadsheet or shared directly with your accountant.\n\nProfit/loss report for free users has a transaction limit and does not take into account all possible protocols."
+          "title": "AI-Powered Investment Insights:",
+          "description": "DeFiVestor’s intelligent analytics engine transforms complex blockchain data into clear, actionable insights. It continuously monitors your portfolio, tracking performance, profits, and yield opportunities across every DeFi protocol and network you use. The AI doesn’t just show what happened — it reveals why it happened and what’s likely to happen next. From detecting market trends early to identifying underperforming assets, DeFiVestor helps you make informed, confident investment moves without the noise."
         },
         "free_vs_premium": {
-          "title": "Free vs. Premium:",
-          "description": "Free users can generate reports with a transaction limit and partial protocol coverage. Upgrade to Premium for unlimited reporting and full protocol support."
+          "title": "Smart Trading & Market Intelligence:",
+          "description": "Powered by advanced AI models, DeFiVestor analyzes liquidity flows, price movements, and protocol activity to predict potential opportunities before they emerge. It automatically generates performance summaries, profit/loss analyses, and personalized recommendations — such as when to rebalance, stake, or harvest yields. Think of it as your personal DeFi analyst, always learning from your strategy and the wider market to help you grow faster, smarter, and safer in the decentralized world."
         }
       },
-      "title": "Profit/loss report",
-      "subtitle": "A profit/loss report for all your historical data"
+      "title": "AI-Driven Insights",
+      "subtitle": "Our smart analytics engine tracks real-time performance and market movements, offering personalized insights to help you make confident investment decisions."
     },
     "rotki_offer": "What does {0} offer?",
     "testimonials": {
-      "detail": "Hear from some of our amazing customers who are using rotki.",
+      "detail": "Hear from some of our amazing customers who are using DeFiVestor.",
       "title": "Don’t just take our word for it"
     }
   },
@@ -660,7 +660,7 @@
     "title": "Under maintenance"
   },
   "navigation_menu": {
-    "accounting_service": "Bespoke Accounting",
+    "accounting_service": "Services",
     "blog": {
       "description": "Latest news and updates on rotki",
       "title": "Blog"
@@ -683,7 +683,7 @@
     "privacy_policy": "Privacy Policy",
     "product": "Product",
     "resources": "Resources",
-    "rotki_premium": "rotki Premium",
+    "rotki_premium": "Products",
     "product_and_services": "Product & Services",
     "sponsor": "Sponsor rotki's next release",
     "tos": "Terms of Service",

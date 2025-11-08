@@ -46,4 +46,5 @@ definePageMeta({
   />
   <DownloadDocs />
   <DownloadPreview />
+  <ProductsFooter />
 </template>
