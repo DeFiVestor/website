@@ -31,24 +31,13 @@ const baseMenus: (Menu | MenuParent)[] = [
     highlightExactActive: true,
   },
   {
-    label: t('navigation_menu.product_and_services'),
-    children: [
-      {
-        label: t('navigation_menu.rotki_premium'),
-        to: '/products',
-        highlightActive: true,
-      },
-      {
-        label: t('navigation_menu.accounting_service'),
-        to: '/services',
-        highlightActive: true,
-      },
-    ],
+    label: t('navigation_menu.rotki_premium'),
+    to: '/products',
+    highlightActive: true,
   },
   {
-    label: t('navigation_menu.integration.title'),
-    description: t('navigation_menu.integration.description'),
-    to: '/integrations',
+    label: t('navigation_menu.accounting_service'),
+    to: '/services',
     highlightActive: true,
   },
   {
@@ -57,9 +46,10 @@ const baseMenus: (Menu | MenuParent)[] = [
     highlightActive: true,
   },
   {
-    label: t('navigation_menu.get_started'),
-    to: '/get-started',
-    highlightExactActive: true,
+    label: t('navigation_menu.integration.title'),
+    description: t('navigation_menu.integration.description'),
+    to: '/integrations',
+    highlightActive: true,
   },
 ];
 

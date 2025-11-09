@@ -31,10 +31,10 @@ const contacts: { title: string; description: string; href: string; icon: RuiIco
     icon: 'lu-discord',
   },
   {
-    title: 'Github',
+    title: 'Telegram',
     description: t('values.contact_section.github.description'),
     href: github,
-    icon: 'lu-github',
+    icon: 'lu-message-circle',
     linkLabel: 'Rotki Solutions GmbH',
   },
 ];

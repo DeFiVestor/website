@@ -9,10 +9,10 @@ const {
 
 const menus: { title: string; showText: boolean; href: string; icon: RuiIcons }[] = [
   {
-    title: 'Github',
+    title: 'Telegram',
     showText: false,
     href: github,
-    icon: 'lu-github',
+    icon: 'lu-message-circle',
   },
   {
     title: 'Twitter',
