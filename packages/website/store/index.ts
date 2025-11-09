@@ -81,7 +81,7 @@ export const useMainStore = defineStore('main', () => {
     const localPlans: Plan[] = [
       {
         months: 1,
-        priceFiat: '1,000',
+        priceFiat: '1,000/mo',
         discount: 0,
       },
       {

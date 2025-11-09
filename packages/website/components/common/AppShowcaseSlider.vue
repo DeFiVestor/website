@@ -16,9 +16,14 @@ function scanImages() {
     '~/public/img/screenshots/*.(png|jpe?g|webp)',
   );
 
-  const assetPaths = Object.keys(assetContext).map(path =>
-    path.replace('/public/img', '/img'),
-  );
+  const assetPaths = Object.keys(assetContext)
+    .map(path => path.replace('/public/img', '/img'))
+    .sort((a, b) => {
+      // Extract numbers from filenames like "1-sc-screenshot.png" or "10-sc-screenshot.png"
+      const numA = parseInt(a.match(/(\d+)-sc-screenshot/)?.[1] || '0');
+      const numB = parseInt(b.match(/(\d+)-sc-screenshot/)?.[1] || '0');
+      return numA - numB;
+    });
 
   set(images, assetPaths);
 }

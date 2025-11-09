@@ -209,20 +209,20 @@
     "confirm": "Confirm",
     "continue": "Continue",
     "download": "Download",
-    "download_for_free": "Download rotki for free",
+    "download_for_free": "Start Investing",
     "edit": "Edit",
     "generate": "Generate",
     "get_advanced_plan": "Get Advanced Plan",
     "get_in_touch": "Get In Touch Now",
-    "get_premium": "Get Premium",
-    "get_premium_plan": "Get Premium Plan",
-    "get_started_for_free": "Get started for free",
+    "get_premium": "Get Started",
+    "get_premium_plan": "Invest Now",
+    "get_started_for_free": "Start Investing",
     "go_back_home": "Go back home",
     "regenerate": "Regenerate",
     "renew": "Renew",
     "reset": "Reset",
     "resume": "Resume",
-    "start_now_for_free": "Start now for free",
+    "start_now_for_free": "Invest Now",
     "submit": "Submit",
     "update": "Update"
   },
@@ -256,7 +256,7 @@
       "alert_error": "If you are writing your username and password from the app, we remind you that they are independent accounts.",
       "first_time_premium": "First time premium?",
       "forgot_password": "Forgot password?",
-      "message": " Premium users unlock the full potential of rotki by removing all limits and unlocking all features.",
+      "message": " Premium users unlock the full potential of DeFiVestor by removing all limits and unlocking all features.",
       "sign_up_now": "Sign up now",
       "title": "Sign in"
     },
@@ -490,7 +490,7 @@
       "plan_selected": "Plan selected",
       "details": {
         "advanced": {
-          "subtitle": "Premium users unlock the full potential of rotki by removing all limits and unlocking all features.",
+          "subtitle": "Premium users unlock the full potential of DeFiVestor by removing all limits and unlocking all features.",
           "title": "Advanced"
         },
         "custom": {
@@ -498,12 +498,12 @@
           "title": "Want a custom tailored plan?"
         },
         "free": {
-          "price": "$100",
+          "price": "$100/mo",
           "subtitle": "Get started with our essential DeFiVestor plan for just $100 per month.",
           "title": "Starter Plan"
         },
         "premium": {
-          "subtitle": "Premium users unlock the full potential of rotki by removing all limits and unlocking all features.",
+          "subtitle": "Premium users unlock the full potential of DeFiVestor by removing all limits and unlocking all features.",
           "title": "Premium Plan"
         },
         "recommended": "Recommended"
@@ -702,10 +702,10 @@
   },
   "page_footer": {
     "all_rights_reseved": "All Rights Reserved.",
-    "download": "Get the app"
+    "download": "Launch App"
   },
   "page_header": {
-    "manage_premium": "Manage Premium"
+    "manage_premium": "Launch App"
   },
   "logo": {
     "alt": "rotki logo"
@@ -808,7 +808,7 @@
       }
     },
     "footer": {
-      "description": "Upgrade to rotki premium today and take your financial management to the next level. Enjoy enhanced features, greater flexibility, and exclusive perks designed for the modern investor."
+      "description": "Register on DeFiVestor today and take your decentralized investing to the next level. Unlock smarter tools, automated insights, and exclusive access to premium DeFi opportunities — built for the modern investor who wants more control, more growth, and more freedom."
     },
     "heading": "The Future of DeFi Investment — Intelligent, Transparent, and Effortless",
     "title": "Smarter insights, stronger portfolios, complete control",
