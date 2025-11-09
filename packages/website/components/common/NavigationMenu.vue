@@ -52,21 +52,9 @@ const baseMenus: (Menu | MenuParent)[] = [
     highlightActive: true,
   },
   {
-    label: t('navigation_menu.resources'),
-    children: [
-      {
-        label: t('navigation_menu.documentation.title'),
-        description: t('navigation_menu.documentation.description'),
-        to: 'https://docs.rotki.com',
-        external: true,
-      },
-      {
-        label: t('navigation_menu.blog.title'),
-        description: t('navigation_menu.blog.description'),
-        to: 'https://blog.rotki.com',
-        external: true,
-      },
-    ],
+    label: t('navigation_menu.about_us'),
+    to: '/about-us',
+    highlightActive: true,
   },
   {
     label: t('navigation_menu.get_started'),

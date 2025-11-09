@@ -44,32 +44,18 @@ const menus: MenuGroup[] = [
     header: t('navigation_menu.company'),
     items: [
       {
+        label: t('navigation_menu.about_us'),
+        to: '/about-us',
+        highlightActive: true,
+      },
+      {
         label: t('navigation_menu.jobs'),
         to: '/jobs',
         highlightActive: true,
       },
-      {
-        label: t('navigation_menu.values'),
-        to: '/values',
-        highlightActive: true,
-      },
     ],
   },
-  {
-    header: t('navigation_menu.resources'),
-    items: [
-      {
-        label: t('navigation_menu.documentation.title'),
-        to: 'https://docs.rotki.com',
-        external: true,
-      },
-      {
-        label: t('navigation_menu.blog.title'),
-        to: 'https://blog.rotki.com',
-        external: true,
-      },
-    ],
-  },
+
   {
     header: t('navigation_menu.legal'),
     items: [
@@ -87,11 +73,6 @@ const menus: MenuGroup[] = [
         label: t('navigation_menu.tos'),
         to: '/tos',
         highlightActive: true,
-      },
-      {
-        label: t('navigation_menu.faq'),
-        to: 'https://docs.rotki.com/faq',
-        external: true,
       },
     ],
   },

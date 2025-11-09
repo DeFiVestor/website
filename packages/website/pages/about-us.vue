@@ -2,8 +2,8 @@
 import { commonAttrs, getMetadata } from '~/utils/metadata';
 
 useHead({
-  title: 'values',
-  meta: getMetadata('rotki', 'Values of rotki', '/values'),
+  title: 'About Us',
+  meta: getMetadata('rotki', 'About rotki - Our mission and values', '/about-us'),
   ...commonAttrs(),
 });
 
