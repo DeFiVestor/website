@@ -3,7 +3,7 @@ title: Privacy Policy
 description: Information for the website visitors regarding our policies with the collection, use, and disclosure of Personal Information regarding the service usage
 ---
 
-Rotki Solutions GmbH operates the Rotki website and Premium API
+DeFiVestor Solutions GmbH operates the Rotki website and Premium API
 subscription, henceforth known as the SERVICE.
 
 This page is used to inform website visitors regarding our policies with

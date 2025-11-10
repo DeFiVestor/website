@@ -22,7 +22,7 @@ const contacts: { title: string; description: string; href: string; icon: RuiIco
     description: t('values.contact_section.twitter.description'),
     href: twitter,
     icon: 'lu-x-twitter',
-    linkLabel: '@RotkiApp',
+    linkLabel: '@defivestors',
   },
   {
     title: 'Discord',
@@ -35,7 +35,7 @@ const contacts: { title: string; description: string; href: string; icon: RuiIco
     description: t('values.contact_section.github.description'),
     href: github,
     icon: 'lu-message-circle',
-    linkLabel: 'Rotki Solutions GmbH',
+    linkLabel: '@defivestors',
   },
 ];
 </script>

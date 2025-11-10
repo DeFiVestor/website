@@ -787,7 +787,7 @@
           "description": "DeFiVestor is built for the evolving DeFi world. With continuous integration of new chains, tokens, and protocols, your portfolio will always stay ahead of the curve. You invest in the future — we make sure your tools keep up.",
           "title": "Future-Proof Scalability"
         },
-        "title": "Monerium API Integration and Premium Data Backup"
+        "title": "Custom API Integration and Premium Data Backup"
       },
       "staking": {
         "description": "Seamlessly connect to Ethereum, BNB Chain, Polygon, Arbitrum, Avalanche, Base, and dozens more. DeFiVestor automatically detects and syncs your activity across major DeFi protocols like Aave, Uniswap, Curve, and Compound, ensuring your data is complete and real-time accurate.",
@@ -813,8 +813,8 @@
     "heading": "The Future of DeFi Investment — Intelligent, Transparent, and Effortless",
     "title": "Smarter insights, stronger portfolios, complete control",
     "unlock": {
-      "description": "Unlock the full potential of rotki with a premium subscription. Whether you're a seasoned investor or just starting out, rotki premium provides the tools and resources you need to succeed in today's dynamic financial landscape.",
-      "title": "Unlock Premium Features"
+      "description": "Take control of your financial destiny with DeFiVestor — the next-generation platform redefining how people invest in decentralized markets. Whether you’re exploring DeFi for the first time or expanding your crypto portfolio, DeFiVestor gives you the tools, insights, and freedom to invest confidently and intelligently. Join thousands of smart investors who are earning, growing, and taking ownership of their digital wealth — all from one secure, transparent, and intuitive dashboard.",
+      "title": "Your decentralized investment journey begins here."
     }
   },
   "recaptcha": {
@@ -1068,43 +1068,43 @@
         "description": "Contribute code/issues."
       },
       "header": "Get in touch",
-      "subtitle": "For media inquiries or additional information about rotki, please reach out to:",
+      "subtitle": "At DeFiVestor, we are more than an investment platform — we are the architects of a new financial era. Our team is passionate about redefining how people interact with money, data, and opportunity in the blockchain space. We invite you to join us on this journey — to invest smarter, grow stronger, and take control of your financial future, one decentralized step at a time. For media inquiries or additional information about DeFiVestor, please reach out to:",
       "title": "Contact us",
       "twitter": {
         "description": "See our daily updates."
       }
     },
-    "subtitle": "Our mission is to empower users to take control of their finances both in and out of crypto in a transparent and auditable way while enabling them to own their data through a self-sovereign application.",
+    "subtitle": "Our mission is to make decentralized finance simple, transparent, and accessible to everyone — from the seasoned investor to the first-time crypto enthusiast. We believe the future of wealth creation should not be reserved for a select few with technical expertise. That’s why we built DeFiVestor: a platform where you can invest, track, and grow your digital assets confidently, without needing to understand complex code, protocols, or wallets.",
     "title": "Nice to meet you",
     "values_section": {
-      "description": "We are driven by a set of core values that guide our every action and decision. Our commitment to these values is what sets us apart and ensures that our users receive the utmost quality and service.",
+      "description": "We aim to bridge the gap between human intelligence and blockchain technology by empowering users with AI-driven insights, real-time analytics, and secure automation — giving every investor a fair chance to succeed in the decentralized economy. Our vision is a world where anyone can harness the power of decentralized finance to build a better financial future — all through an intuitive, user-friendly experience that puts you in control. At the heart of DeFiVestor lies a commitment to ethics, innovation, and empowerment. We’re not just building an investment platform; we’re building a culture of trust, learning, and financial freedom. Every decision we make, every feature we build, and every partnership we form revolves around these three core values:",
       "list": {
         "line_1": {
-          "title": "We are:",
-          "value": "a team of dedicated builders driven by our love for what we create. Our passion lies in developing applications that bring tangible value to our users. We believe in the power of open-source development, as it enables transparency, audibility, and the provision of user guarantees."
+          "title": "Transparency Above All",
+          "value": "Trust is the foundation of DeFi. That’s why we prioritize radical transparency in everything we do — from how transactions are recorded to how yields are calculated. Every movement on DeFiVestor is verifiable on-chain, ensuring users always know where their funds are and how they’re performing. We don’t hide data, we don’t manipulate figures, and we never compromise integrity. Transparency isn’t just a feature for us; it’s our philosophy."
         },
         "line_2": {
           "local_first": "Local-first",
           "open_source": "Open-source",
-          "title": "We build:",
-          "value": "- {open_source}: Because that's the only way to create transparent applications that can be audited and provide users with guarantees.\n- {local_first}: Building local applications that store all data locally is the only way to guarantee data privacy and true ownership. Nobody can deny access to the app or the data to the user if it's a local application."
+          "title": "Empowerment Through Knowledge",
+          "value": "We believe education is the most valuable investment anyone can make. DeFiVestor is designed not only to help you earn, but also to help you learn. Our interface, insights, and analytics are crafted to teach users how decentralized finance truly works. Whether you’re analyzing liquidity pools, exploring yield farms, or tracking your risk exposure, DeFiVestor ensures you understand every step — because empowered investors make smarter, longer-lasting decisions."
         },
         "line_3": {
-          "title": "We welcome:",
-          "value": "external open-source contributors who understand our mission and utilise our product themselves, driven by the desire to help it reach its maximum potential.\n\nOur team can independently shoulder their responsibilities, taking ownership of their work. We value teamwork and collaboration, emphasising the importance of collective effort rather than individual stardom."
+          "title": "Security You Can Rely On",
+          "value": "In DeFi, control means security. DeFiVestor never compromises your custody or your privacy. Your assets remain in your wallet; your data stays encrypted and private. We utilize end-to-end encryption, multi-chain security frameworks, and continuous vulnerability testing to ensure every interaction is safe. We don’t just secure your funds — we secure your peace of mind."
         }
       },
-      "title": "Values"
+      "title": "Our Values"
     },
     "vision_section": {
-      "description": "rotki is the portfolio tracking, management and accounting tool for your finances. The one-stop app for viewing and managing your finances. rotki aspires to: ",
+      "description": "Our vision is to redefine what it means to invest in the decentralized world. DeFiVestor isn’t just a platform — it’s a movement to democratize access to digital wealth. We see a future where every individual, regardless of geography, background, or financial literacy, can participate freely and safely in global finance without intermediaries or barriers. We’re building toward a world where:",
       "list": {
-        "line_1": "Be the one place to track your entire portfolio across on-chain crypto, banks, stocks, trades and more.",
-        "line_2": "Allow you to manage your finances, perform trades across CEXes, on-chain swaps, and other brokers from one interface.",
-        "line_3": "Create monthly/quarterly/yearly reports covering assets across all mentioned locations.",
-        "line_4": "A modular system that many contributors outside our team can extend. For example, if someone wants to integrate tax accounting rules for a specific jurisdiction, they are experts on or integrate a chain they know of."
+        "line_1": "Financial growth should not depend on where you live or how much capital you start with. DeFiVestor envisions a future where decentralized systems level the playing field, allowing anyone to invest, earn, and grow from anywhere in the world.",
+        "line_2": "Through continuous innovation, DeFiVestor integrates AI to simplify decision-making, automate complex strategies, and detect opportunities faster than ever before. Our AI-driven analytics don’t replace human judgment — they amplify it, turning every user into a confident investor with intelligent, data-backed insights.",
+        "line_3": "We envision a financial ecosystem that cannot be controlled, censored, or manipulated by centralized authorities. By empowering investors to retain full ownership of their assets and data, DeFiVestor contributes to a financial world that thrives on independence, fairness, and transparency.",
+        "line_4": "DeFiVestor strives to make decentralized investment sustainable — not just in profits but in purpose. We’re dedicated to supporting projects, protocols, and communities that promote ethical finance, long-term growth, and real-world impact. Because true wealth isn’t measured by what we gain alone, but by what we build together."
       },
-      "title": "Vision"
+      "title": "Our Vision"
     }
   }
 }

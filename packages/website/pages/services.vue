@@ -64,7 +64,7 @@ const services = computed(() => [
               external
               :to="twitter"
             >
-              @RotkiApp
+              @defivestors
             </ButtonLink>
           </template>
         </i18n-t>
@@ -117,7 +117,7 @@ const services = computed(() => [
       <div class="flex flex-col items-center space-y-4 dark">
         <ButtonLink
           external
-          to="https://calendly.com/rotki-lefteris/accounting-with-rotki"
+          to="https://calendly.com/vestordefi/30min"
           size="lg"
           variant="filled"
           rounded
@@ -128,7 +128,7 @@ const services = computed(() => [
               size="20"
             />
           </template>
-          Book a Free 15-Min Intro call
+          Book a Free 30-Min Intro call
         </ButtonLink>
 
         <i18n-t

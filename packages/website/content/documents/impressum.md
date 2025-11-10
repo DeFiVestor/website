@@ -2,7 +2,7 @@
 title: Impressum
 subtitle: Angaben gemäß § 5 TMG
 description: Impressum - DE
-address: "Rotki Solutions GmbH\n
+address: "DeFiVestor Solutions GmbH\n
           Matthiasstr. 11\n
           10249 Berlin\n
           Handelsregister: HRB221065B\n
@@ -15,7 +15,7 @@ Eleftherios Karapetsas
 
 ##### Kontakt
 
-email: info@rotki.com
+email: info@defivestor.com
 
 ##### EU-Streitschlichtung
 

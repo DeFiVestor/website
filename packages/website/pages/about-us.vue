@@ -23,5 +23,6 @@ definePageMeta({
       </div>
     </div>
     <ValueContact />
+    <ProductsFooter />
   </div>
 </template>

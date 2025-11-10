@@ -41,7 +41,7 @@ useHead({
 
     // Additional SEO Tags
     { name: 'robots', content: 'noindex, nofollow' },
-    { name: 'author', content: 'Rotki Solutions GmbH' },
+    { name: 'author', content: 'DeFiVestor Solutions GmbH' },
     { name: 'keywords', content: 'rotki, premium, subscription, payment, card payment, cryptocurrency accounting' },
 
     // Theme Color
