@@ -342,7 +342,7 @@ export default defineNuxtConfig({
         discord: 'https://discord.defivestor.com',
         email: 'info@defivestor.com',
         emailMailto: 'mailto:info@defivestor.com',
-        github: 'https://github.com/defivestors',
+        github: 'https://t.me/defivestors',
         supportEmail: 'info@defivestor.com',
         supportEmailMailto: 'mailto:info@defivestor.com',
         twitter: 'https://twitter.com/defivestors',

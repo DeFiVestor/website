@@ -12,7 +12,7 @@ interface GithubRelease {
   readonly assets: Asset[];
 }
 
-export function useAppDownload(fallbackUrl = 'https://github.com/rotki/rotki/releases/latest') {
+export function useAppDownload(fallbackUrl = 'https://github.com/') {
   const version = ref('');
   const linuxUrl = ref(fallbackUrl);
   const macOSUrl = ref(fallbackUrl);

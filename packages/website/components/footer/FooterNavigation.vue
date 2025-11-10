@@ -60,11 +60,6 @@ const menus: MenuGroup[] = [
     header: t('navigation_menu.legal'),
     items: [
       {
-        label: t('navigation_menu.impressum'),
-        to: '/impressum',
-        highlightActive: true,
-      },
-      {
         label: t('navigation_menu.privacy_policy'),
         to: '/privacy-policy',
         highlightActive: true,

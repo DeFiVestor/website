@@ -1,100 +1,61 @@
 ---
 title: Privacy Policy
-description: Information for the website visitors regarding our policies with the collection, use, and disclosure of Personal Information regarding the service usage
+description: Information for DeFiVestor website visitors regarding our policies on the collection, use, and disclosure of Personal Information related to the use of our services.
 ---
 
-DeFiVestor Solutions GmbH operates the Rotki website and Premium API
-subscription, henceforth known as the SERVICE.
+DeFiVestor operates the website and Premium Investment Subscription Service, collectively referred to as the **SERVICE**.
 
-This page is used to inform website visitors regarding our policies with
-the collection, use, and disclosure of Personal Information if anyone
-decided to use our Service.
+This page is intended to inform users about our policies concerning the collection, use, and disclosure of personal information for those who choose to use our Service.
 
-If you choose to use our Service, then you agree to the collection and use
-of information in relation with this policy. The Personal Information that
-we collect are only used for invoicing and compliance reasons. We will not
-use or share your information with anyone except as described in this
-Privacy Policy.
+By using our Service, you agree to the collection and use of information in accordance with this policy. The personal information we collect is used solely for compliance, account management, and invoicing purposes. We do not use or share your information with anyone except as described in this Privacy Policy.
 
-The terms used in this Privacy Policy have the same meanings as in our
-Terms and Conditions, which is accessible [here](/tos), unless otherwise
-defined in this Privacy Policy.
+The terms used in this Privacy Policy have the same meanings as in our [Terms and Conditions](/tos), unless otherwise stated.
 
 ##### Information Collection and Use
 
-For a better experience while using our Service, we may require you to
-provide us with certain personally identifiable information, including but
-not limited to your name and postal address. The information that we
-collect will be used solely to contact or identify you for payment
-purposes.
+To provide a better user experience, we may ask you to provide certain personally identifiable information, such as your name, email address, and billing details. This information is collected only for account verification, payment processing, and compliance purposes.
 
 ##### Log Data
 
-We want to inform you that whenever you visit our Service, we collect
-information that your browser sends to us that is called Log Data. This
-Log Data may include information such as your computer’s Internet Protocol
-(“IP”) address, browser version, pages of our Service that you visit, the
-time and date of your visit, the time spent on those pages, and other
-statistics.
+When you visit our website, your browser automatically sends data to us known as **Log Data**. This may include your computer’s Internet Protocol (IP) address, browser version, pages visited, the time and date of your visit, the duration of your session, and other statistics. We use this data to monitor performance, enhance user experience, and ensure platform security.
 
 ##### Cookies
 
-Cookies are files with small amount of data that is commonly used as an
-anonymous unique identifier. These are sent to your browser from the
-website that you visit and are stored on your computer’s hard drive.
-
-Our website uses these “cookies” to collect information and to improve our
-Service. You have the option to either accept or refuse these cookies, and
-know when a cookie is being sent to your computer.
+Cookies are small files containing a unique identifier that are stored on your device. DeFiVestor uses cookies to enhance your browsing experience, remember your preferences, and analyze how our Service is used.  
+You can choose to accept or decline cookies. If you refuse cookies, some portions of our Service may not function as intended.
 
 ##### Service Providers
 
-We may employ third-party companies and individuals due to the following
-reasons:
+We may engage third-party service providers for the following reasons:
 
-- To facilitate our Service;
-- To provide the Service on our behalf;
-- To perform Service-related services; or
-- To assist us in analyzing how our Service is used.
+- To facilitate our Service;  
+- To host or maintain the platform;  
+- To provide the Service on our behalf;  
+- To perform Service-related functions; or  
+- To help us analyze usage data and improve user experience.
 
-We want to inform our Service users that these third parties do not have
-any access to your Personal Information.
+These third parties are granted access only to the information necessary to perform their assigned tasks and are obligated not to disclose or use it for any other purpose.
 
 ##### Security
 
-We value your trust in providing us your Personal Information, thus we are
-striving to use commercially acceptable means of protecting it. But
-remember that no method of transmission over the internet, or method of
-electronic storage is 100% secure and reliable, and we cannot guarantee
-its absolute security.
+We value your trust in providing your personal information and strive to use commercially reasonable measures to protect it. However, please note that no method of transmission over the Internet or method of electronic storage is completely secure. While we take necessary precautions, we cannot guarantee absolute security.
 
 ##### Links to Other Sites
 
-Our Service may contain links to other sites. If you click on a
-third-party link, you will be directed to that site. Note that these
-external sites are not operated by us. Therefore, we strongly advise you
-to review the Privacy Policy of these websites. We have no control over,
-and assume no responsibility for the content, privacy policies, or
-practices of any third-party sites or services.
+Our Service may contain links to external websites. If you click a third-party link, you will be directed to that site. Please be aware that these websites are not operated by us. We strongly encourage you to review their respective Privacy Policies, as DeFiVestor has no control over or responsibility for the content, privacy practices, or policies of any third-party sites or services.
 
 ##### Children’s Privacy
 
-Our Services do not address anyone under the age of 13. We do not
-knowingly collect personal identifiable information from children under 13.
-In the case we discover that a child under 13 has provided us with
-personal information, we immediately delete this from our servers. If you
-are a parent or guardian, and you are aware that your child has provided us
-with personal information, please contact us so that we will be able to do
-necessary actions.
+Our Services are not directed toward individuals under the age of 13. We do not knowingly collect personal information from minors.  
+If we discover that a child under 13 has submitted personal information to us, we will promptly delete it. If you are a parent or guardian and believe your child has provided us with personal data, please contact us immediately so that we can take appropriate action.
 
 ##### Changes to This Privacy Policy
 
-We may update our Privacy Policy from time to time. Thus, we advise you to
-review this page periodically for any changes. We will notify you of any
-changes by posting the new Privacy Policy on this page. These changes are
-effective immediately, after they are posted on this page.
+We may update our Privacy Policy periodically. Any changes will be posted on this page with an updated effective date. We encourage you to review this page regularly to stay informed about how we protect your data.  
+Changes take effect immediately upon posting the revised Privacy Policy.
 
 ##### Contact Us
 
-If you have any questions or suggestions about our Privacy Policy, do not
-hesitate to contact us.
+If you have questions, concerns, or suggestions about this Privacy Policy, please contact us at:
+
+📩 **info@defivestor.com**
