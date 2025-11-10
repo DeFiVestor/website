@@ -623,7 +623,7 @@
       "description": "Connect your blockchain addresses.",
       "title": "Blockchains"
     },
-    "description": "We support different blockchains, exchanges, and protocols to help you track, account for, and analyze your finances while protecting your privacy.",
+    "description": "DeFiVestor connects you to the entire decentralized finance ecosystem — effortlessly. With native support for 15 major blockchains, 29 leading exchanges, and 90+ DeFi protocols, we make it easy to unify all your investments in one intelligent dashboard. From Ethereum, Polygon, and Arbitrum to Binance Smart Chain and Avalanche, DeFiVestor automatically syncs your wallets, exchange accounts, and protocol activities in real time. No manual imports, no fragmented data — just one synchronized portfolio view across every network you use. Whether you’re staking, lending, providing liquidity, or trading on top-tier exchanges, DeFiVestor’s integration engine ensures every asset and transaction is tracked accurately. Our system continuously updates with the latest on-chain data and exchange APIs, giving you precise insights and complete transparency over your decentralized wealth. With DeFiVestor, managing a multi-chain portfolio feels effortless — because everything you need is already connected.",
     "exchanges": {
       "description": "Connect to a big number of centralized exchanges.",
       "title": "Exchanges"
@@ -638,13 +638,13 @@
     "tabs": {
       "all": "All"
     },
-    "title": "Connect your blockchains, connect your exchanges"
+    "title": "Seamless Integrations That Power Your DeFi Portfolio"
   },
   "jobs": {
-    "description": "Our mission is to empower users to take control of their finances both in and out of crypto in a transparent and auditable way while enabling them to own their data through a self-sovereign application.",
-    "header": "We’re looking for talented people",
+    "description": "At DeFiVestor, we’re building the future of finance — a world where investors have full control, total transparency, and true ownership of their assets. We’re looking for talented, passionate people to help us shape this future. Whether you’re a developer, designer, or strategist, your work will empower users to invest confidently in decentralized finance. Join a team that values innovation, integrity, and impact — where every idea counts and every contribution moves us closer to financial freedom for all. Build with us. Empower investors. Redefine DeFi.",
+    "header": "Join Us in Building the Future of Decentralized Investing",
     "no_open_roles": "There are no open roles.",
-    "title": "Careers at rotki",
+    "title": "Careers at DeFiVestor",
     "role_unavailable": {
       "title": "Role unavailable",
       "description": "Thank you for your interest in the {title} role. This position is no longer available and we are not looking for new candidates for this role."
