@@ -3,19 +3,57 @@ import { useDynamicMessages } from '~/composables/dynamic-message';
 import { commonAttrs, getMetadata } from '~/utils/metadata';
 
 const description
-  = 'rotki is an open source portfolio tracker, accounting and analytics tool that protects your privacy.';
+  = 'DeFiVestor is a comprehensive DeFi investment platform that helps you discover, analyze, and invest in decentralized finance opportunities with confidence.';
 
-const keywords = `portfolio,portfolio-tracking,cryptocurrency-portfolio-tracker,cryptocurrency,bitcoin,ethereum,
-privacy,opensource,accounting,asset-management,taxes,tax-reporting`;
+const keywords = `defi,defi-investing,decentralized-finance,cryptocurrency,blockchain,investment,portfolio,ethereum,polygon,arbitrum,
+yield-farming,liquidity-mining,staking,decentralized-exchange,dex,smart-contracts,crypto-investment,defi-analytics`;
 
 useHead({
-  title: 'rotki',
+  title: 'DeFiVestor - Smart DeFi Investment Platform',
   meta: [
     {
       name: 'keywords',
       content: keywords,
     },
-    ...getMetadata('rotki', description, ''),
+    ...getMetadata('DeFiVestor - Smart DeFi Investment Platform', description, ''),
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'Organization',
+        name: 'DeFiVestor',
+        url: 'https://defivestor.com',
+        logo: 'https://defivestor.com/android-chrome-192x192.png',
+        description,
+        sameAs: [
+          'https://twitter.com/defivestors',
+          'https://t.me/defivestors',
+          'https://discord.defivestor.com',
+        ],
+        contactPoint: {
+          '@type': 'ContactPoint',
+          email: 'info@defivestor.com',
+          contactType: 'customer service',
+        },
+      }),
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'DeFiVestor',
+        url: 'https://defivestor.com',
+        description,
+        potentialAction: {
+          '@type': 'SearchAction',
+          target: 'https://defivestor.com/search?q={search_term_string}',
+          'query-input': 'required name=search_term_string',
+        },
+      }),
+    },
   ],
   ...commonAttrs(),
 });

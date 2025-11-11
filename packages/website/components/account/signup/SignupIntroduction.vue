@@ -23,7 +23,8 @@ const { t } = useI18n({ useScope: 'global' });
         </template>
         <template #download>
           <ButtonLink
-            to="/get-started"
+            to="https://app.defivestor.com/login"
+            external
             inline
             color="primary"
             class="underline"

@@ -35,9 +35,10 @@ const copyright = computed<string>(() => `© DeFiVestor Solutions GmbH 2018-${ye
             <ButtonLink
               color="primary"
               size="lg"
-              to="/get-started"
+              to="https://app.defivestor.com/login"
               rounded
               variant="filled"
+              external
             >
               {{ t('page_footer.download') }}
             </ButtonLink>

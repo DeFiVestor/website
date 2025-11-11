@@ -34,11 +34,12 @@ const data: { icon: RuiIcons; text: string; tooltip: string }[] = [
         {{ t('home.hero.motto') }}
       </h5>
       <ButtonLink
-        to="/get-started"
+        to="https://app.defivestor.com/register"
         size="lg"
         color="primary"
         rounded
         variant="default"
+        external
       >
         {{ t('actions.download_for_free') }}
       </ButtonLink>

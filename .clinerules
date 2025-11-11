@@ -4,7 +4,25 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-This is the **rotki.com** website - a Nuxt 3 website for a cryptocurrency portfolio management service. The site handles premium subscriptions, payment processing, user account management, and content delivery.
+This is the **DeFiVestor** website (defivestor.com) - a Nuxt 3 website serving as a landing page for DeFiVestor services. The site is optimized for SEO and user experience with only essential pages active.
+
+## Active Pages (Only work on these)
+
+The following pages are the only active pages in this project. All other pages are disabled and should not be modified or accessed:
+
+- `/` (homepage)
+- `/products`
+- `/services`
+- `/about-us`
+- `/integrations`
+- `/jobs`
+- `/jobs/backend`
+- `/jobs/frontend`
+- `/jobs/ui-ux`
+- `/privacy-policy`
+- `/tos`
+
+**Important**: Do not modify, optimize, or work on any pages outside this list. They are disabled for SEO and routing purposes.
 
 ## Development Commands
 

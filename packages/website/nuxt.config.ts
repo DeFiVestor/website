@@ -24,6 +24,7 @@ const sponsorRoutes = [
 ];
 
 const nonIndexed = [
+  // All pages not in the active list should be excluded from sitemap
   '/activation',
   '/home',
   '/blank',
@@ -41,12 +42,21 @@ const nonIndexed = [
   '/checkout/pay/request-crypto',
   '/checkout/success',
   '/account-deleted',
+  '/get-started',
+  '/impressum',
+  '/login',
+  '/refund-policy',
+  '/signup',
   '/md/',
   '/documents/',
   '/api/**',
   '/_nuxt/**',
   '/testimonials/**',
   '/oauth/**',
+  '/activate/**',
+  '/home/**',
+  '/password/**',
+  '/sponsor/**',
   ...(!sponsorshipEnabled ? sponsorRoutes : []),
 ];
 
@@ -110,8 +120,8 @@ export default defineNuxtConfig({
         { content: '#00aba9', name: 'msapplication-TileColor' },
         { content: '#ffffff', name: 'theme-color' },
       ],
-      title: 'rotki.com',
-      titleTemplate: '%s | rotki',
+      title: 'DeFiVestor',
+      titleTemplate: '%s | DeFiVestor',
     },
   },
 
@@ -186,6 +196,26 @@ export default defineNuxtConfig({
     },
     experimental: {
       tasks: true,
+    },
+    prerender: {
+      crawlLinks: true,
+      ignore: [
+        '/health',
+        '/blank',
+        '/impressum',
+        '/signup',
+        '/login',
+        '/get-started',
+        '/checkout/**',
+        '/home/**',
+        '/password/**',
+        '/sponsor/**',
+        '/oauth/**',
+        '/activation',
+        '/account-deleted',
+        '/maintenance',
+        '/refund-policy',
+      ],
     },
     scheduledTasks: {
       // Run `ntf:cache` task every 5 minutes
@@ -382,7 +412,7 @@ export default defineNuxtConfig({
   },
 
   site: {
-    url: 'https://rotki.com',
+    url: 'https://defivestor.com',
   },
 
   sitemap: {

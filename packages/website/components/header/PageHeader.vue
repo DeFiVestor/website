@@ -10,7 +10,7 @@ const { authenticated } = storeToRefs(store);
 
 async function logout() {
   await store.logout(true);
-  await navigateTo('/login');
+  window.location.href = 'https://app.defivestor.com/login';
 }
 
 const menuOpened = ref<boolean>(false);
@@ -65,7 +65,10 @@ watch(
         <NavigationMenu :class="$style.navigation" />
 
         <div :class="$style.auth">
-          <NuxtLink to="/home/subscription">
+          <ButtonLink
+            to="https://app.defivestor.com/login"
+            external
+          >
             <RuiButton
               rounded
               color="primary"
@@ -73,7 +76,7 @@ watch(
             >
               {{ t('page_header.manage_premium') }}
             </RuiButton>
-          </NuxtLink>
+          </ButtonLink>
           <RuiButton
             v-if="authenticated"
             title="Logout"

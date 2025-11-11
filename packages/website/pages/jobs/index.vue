@@ -21,7 +21,7 @@ const subheader = t('jobs.description');
 
 useHead({
   title,
-  meta: getMetadata(title, header, '/jobs'),
+  meta: getMetadata(title, 'Join DeFiVestor - Work on cutting-edge DeFi technology. We\'re hiring talented developers, designers, and blockchain experts to build the future of decentralized finance.', '/jobs'),
   ...commonAttrs(),
 });
 

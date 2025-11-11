@@ -7,11 +7,11 @@ const {
   },
 } = useRuntimeConfig();
 
-const title = 'Bespoke Accounting Service';
+const title = 'DeFiVestor Services - Professional DeFi Consulting & Accounting';
 
 useHead({
   title,
-  meta: getMetadata(title, 'rotki services accounting service - Deep expertise in crypto accounting since 2017', '/bespoke'),
+  meta: getMetadata(title, 'DeFiVestor provides professional DeFi consulting, accounting services, and investment advisory. Expert guidance for DeFi investors and institutions since 2017.', '/services'),
   ...commonAttrs(),
 });
 

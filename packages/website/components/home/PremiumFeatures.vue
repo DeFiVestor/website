@@ -46,10 +46,11 @@ const data = computed<{ icon: RuiIcons; text: string; description: string }[]>((
           {{ t('home.premium_features.subtitle') }}
         </div>
         <ButtonLink
-          to="/products"
+          to="https://app.defivestor.com/register"
           variant="outlined"
           size="lg"
           class="mt-4"
+          external
         >
           {{ t('actions.get_premium') }}
         </ButtonLink>

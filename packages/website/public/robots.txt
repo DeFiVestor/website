@@ -1,0 +1,38 @@
+User-agent: *
+Allow: /
+Allow: /products
+Allow: /services
+Allow: /about-us
+Allow: /integrations
+Allow: /jobs
+Allow: /jobs/backend
+Allow: /jobs/frontend
+Allow: /jobs/ui-ux
+Allow: /privacy-policy
+Allow: /tos
+
+# Disallow all other pages
+Disallow: /activation
+Disallow: /home
+Disallow: /blank
+Disallow: /maintenance
+Disallow: /health
+Disallow: /password
+Disallow: /checkout
+Disallow: /account-deleted
+Disallow: /get-started
+Disallow: /impressum
+Disallow: /login
+Disallow: /refund-policy
+Disallow: /signup
+Disallow: /md/
+Disallow: /documents/
+Disallow: /api/
+Disallow: /_nuxt/
+Disallow: /testimonials/
+Disallow: /oauth/
+Disallow: /activate/
+Disallow: /sponsor/
+
+# Sitemap
+Sitemap: https://defivestor.com/sitemap.xml

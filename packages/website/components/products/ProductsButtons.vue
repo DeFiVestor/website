@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import type { ContextColorsType } from '@rotki/ui-library';
-import { get } from '@vueuse/core';
-import { storeToRefs } from 'pinia';
-import { useMainStore } from '~/store';
 
 withDefaults(
   defineProps<{
@@ -14,17 +11,6 @@ withDefaults(
   },
 );
 
-const store = useMainStore();
-const { account } = storeToRefs(store);
-
-const allowNavigation = computed(() => {
-  if (!isDefined(account))
-    return true;
-
-  const { emailConfirmed } = get(account);
-  return emailConfirmed;
-});
-
 const { t } = useI18n({ useScope: 'global' });
 </script>
 
@@ -33,30 +19,23 @@ const { t } = useI18n({ useScope: 'global' });
     <ButtonLink
       v-if="!onlyPremium"
       variant="outlined"
-      to="/get-started"
+      to="https://app.defivestor.com/login"
       size="lg"
       :color="color"
       :class="{ '!outline-white !text-rui-dark-text': !color }"
+      external
     >
       {{ t('actions.get_started_for_free') }}
     </ButtonLink>
 
-    <RuiTooltip
-      :disabled="allowNavigation"
-      tooltip-class="max-w-[20rem]"
+    <ButtonLink
+      to="https://app.defivestor.com/register"
+      size="lg"
+      variant="filled"
+      :color="color"
+      external
     >
-      <template #activator>
-        <ButtonLink
-          to="/checkout/pay"
-          size="lg"
-          variant="filled"
-          :disabled="!allowNavigation"
-          :color="color"
-        >
-          {{ t('actions.get_premium') }}
-        </ButtonLink>
-      </template>
-      {{ t('subscription.error.unverified_email') }}
-    </RuiTooltip>
+      {{ t('actions.get_premium') }}
+    </ButtonLink>
   </div>
 </template>

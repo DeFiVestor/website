@@ -65,7 +65,8 @@ const sponsorMenu: Menu = {
 
 const menus = computed<(Menu | MenuParent)[]>(() => {
   const allMenus = [...baseMenus];
-  if (get(isSponsorshipEnabled)) {
+  // Only add sponsor menu on client side to prevent prerendering issues
+  if (process.client && get(isSponsorshipEnabled)) {
     allMenus.push(sponsorMenu);
   }
   return allMenus;

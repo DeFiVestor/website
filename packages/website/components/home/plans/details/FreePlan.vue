@@ -5,7 +5,7 @@ const { t } = useI18n({ useScope: 'global' });
 <template>
   <PlanBox
     :action="t('actions.start_now_for_free')"
-    url="/get-started"
+    url="https://app.defivestor.com/register"
     button-variant="outlined"
   >
     <template #title>

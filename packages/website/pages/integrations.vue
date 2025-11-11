@@ -3,8 +3,8 @@ import { commonAttrs, getMetadata } from '~/utils/metadata';
 
 const { t } = useI18n({ useScope: 'global' });
 
-const title = 'integrations';
-const description = 'Supported blockchains, exchanges, and protocols in rotki';
+const title = 'DeFiVestor Integrations - Supported Blockchains & Protocols';
+const description = 'DeFiVestor integrates with leading DeFi protocols, decentralized exchanges, and blockchain networks including Ethereum, Polygon, Arbitrum, and more for comprehensive portfolio tracking.';
 
 useHead({
   title,

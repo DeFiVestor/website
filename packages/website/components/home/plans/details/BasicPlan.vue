@@ -24,7 +24,7 @@ const startingPrice = computed(() => {
 <template>
   <PlanBox
     :action="t('actions.get_premium_plan')"
-    url="/products/"
+    url="https://app.defivestor.com/register"
     recommended
   >
     <template #title>
