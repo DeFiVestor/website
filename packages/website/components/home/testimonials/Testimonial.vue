@@ -10,7 +10,31 @@ interface TestimonialProps {
   url?: string;
 }
 
-withDefaults(defineProps<TestimonialProps>(), { avatar: undefined, url: undefined });
+const props = withDefaults(defineProps<TestimonialProps>(), { avatar: undefined, url: undefined });
+
+// Extract plain text from Minimark structure
+function extractTextFromMinimark(body: TestimonialBody): string {
+  if (typeof body === 'string') {
+    return body;
+  }
+
+  if (body && typeof body === 'object' && 'value' in body && Array.isArray(body.value)) {
+    // Extract text from Minimark paragraphs
+    const textParts: string[] = [];
+
+    for (const item of body.value) {
+      if (Array.isArray(item) && item.length >= 3 && item[0] === 'p') {
+        textParts.push(item[2] as string);
+      }
+    }
+
+    return textParts.join('\n\n');
+  }
+
+  return '';
+}
+
+const testimonialText = computed(() => extractTextFromMinimark(props.body));
 </script>
 
 <template>
@@ -45,13 +69,9 @@ withDefaults(defineProps<TestimonialProps>(), { avatar: undefined, url: undefine
         />
       </span>
     </span>
-    <ContentRenderer :value="body">
-      <ContentRenderer
-        :class="$style.text"
-        :value="body"
-        tag="span"
-      />
-    </ContentRenderer>
+    <div :class="$style.text">
+      {{ testimonialText }}
+    </div>
     <a
       v-if="url"
       :href="url"
