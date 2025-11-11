@@ -44,9 +44,9 @@ export function createDevCSP(devPort = 3000, hmrPort = 4000): ContentSecurityPol
       `wss://localhost:${hmrPort}`,
     ],
     'frame-src': [`localhost:${devPort}`],
-    // Allow Vite dev client scripts with nonces
-    'script-src': [`localhost:${devPort}`],
-    'script-src-elem': [`localhost:${devPort}`],
+    // Allow Vite dev client scripts with nonces and inline scripts
+    'script-src': [`localhost:${devPort}`, `'unsafe-inline'`],
+    'script-src-elem': [`localhost:${devPort}`, `'unsafe-inline'`],
   };
 }
 
@@ -198,6 +198,17 @@ export const threeDSecureCSP: ContentSecurityPolicyValue = {
     'songbird.cardinalcommerce.com',
     'songbirdstag.cardinalcommerce.com',
   ],
+};
+
+// Tawk.to chat widget (for active pages only)
+export const tawkToCSP: ContentSecurityPolicyValue = {
+  'connect-src': ['https://embed.tawk.to', 'https://va.tawk.to', 'wss://*.tawk.to'],
+  'font-src': ['https://embed.tawk.to'], // Allow fonts for Tawk.to icons
+  'script-src': ['\'unsafe-inline\''], // Required for Tawk.to's dynamic inline scripts
+  'script-src-elem': ['https://embed.tawk.to', 'https://cdn.jsdelivr.net', '\'unsafe-inline\''], // Allow scripts from Tawk.to and jsdelivr for emoji
+  'style-src': ['https://embed.tawk.to', '\'unsafe-inline\''], // Allow external stylesheets and inline styles from Tawk.to
+  'img-src': ['https://embed.tawk.to', 'https://cdn.jsdelivr.net'], // Allow images from Tawk.to and jsdelivr for emoji
+  'frame-src': ['https://embed.tawk.to'],
 };
 
 /**

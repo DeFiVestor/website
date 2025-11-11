@@ -8,6 +8,7 @@ import {
   mergeCSP,
   paypalCSP,
   recaptchaCSP,
+  tawkToCSP,
   threeDSecureCSP,
   walletConnectCSP,
 } from './csp-config';
@@ -234,19 +235,6 @@ export default defineNuxtConfig({
           },
         }
       : {}),
-    '/checkout/pay': {
-      security: {
-        headers: {
-          contentSecurityPolicy: mergeCSP(
-            baseCSP,
-            recaptchaCSP,
-            braintreeBaseCSP,
-            threeDSecureCSP,
-            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
-          ),
-        },
-      },
-    },
     // Dedicated 3D Secure verification page
     '/checkout/pay/3d-secure': {
       security: {
@@ -359,6 +347,107 @@ export default defineNuxtConfig({
         },
       },
     },
+
+    // Active pages with Tawk.to widget (disable nonces for unsafe-inline compatibility)
+    '/': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
+    '/products': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
+    '/services': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
+    '/about-us': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
+    '/integrations': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
+    '/jobs': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
+    '/jobs/**': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
+    '/privacy-policy': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
+    '/tos': {
+      security: {
+        headers: {
+          contentSecurityPolicy: mergeCSP(
+            removeNoncePlaceholders(baseCSP),
+            tawkToCSP,
+            ...(process.env.NODE_ENV === 'development' ? [devCSP] : []),
+          ),
+        },
+      },
+    },
   },
 
   runtimeConfig: {
@@ -400,12 +489,14 @@ export default defineNuxtConfig({
 
   security: {
     enabled: process.env.SKIP_CSP !== 'true',
-    headers: {
-      // Base CSP for all pages (minimal, most restrictive)
-      contentSecurityPolicy: process.env.NODE_ENV === 'development'
-        ? mergeCSP(baseCSP, devCSP)
-        : baseCSP,
-    },
+    headers: process.env.SKIP_CSP === 'true'
+      ? {}
+      : {
+          // Base CSP for all pages (minimal, most restrictive)
+          contentSecurityPolicy: process.env.NODE_ENV === 'development'
+            ? mergeCSP(baseCSP, devCSP)
+            : mergeCSP(baseCSP),
+        },
     hidePoweredBy: true,
     nonce: true,
     sri: true,

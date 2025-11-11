@@ -26,6 +26,11 @@ provide('otherHeight', otherHeight);
       <PageFooter />
     </slot>
   </div>
+
+  <!-- Tawk.to widget integration -->
+  <ClientOnly>
+    <TawkToWidget />
+  </ClientOnly>
 </template>
 
 <style lang="scss" module>
