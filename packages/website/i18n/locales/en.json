@@ -503,8 +503,8 @@
           "title": "Starter Plan"
         },
         "premium": {
-          "subtitle": "Premium users unlock the full potential of DeFiVestor by removing all limits and unlocking all features.",
-          "title": "Premium Plan"
+          "subtitle": "Standard Plan users unlock the full potential of DeFiVestor by removing all limits and unlocking all features.",
+          "title": "Standard Plan"
         },
         "recommended": "Recommended"
       },
