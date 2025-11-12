@@ -498,8 +498,8 @@
           "title": "Want a custom tailored plan?"
         },
         "free": {
-          "price": "$100/mo",
-          "subtitle": "Get started with our essential DeFiVestor plan for just $100 per month.",
+          "price": "$100",
+          "subtitle": "Get started with our essential DeFiVestor plan for just $100.",
           "title": "Starter Plan"
         },
         "premium": {
