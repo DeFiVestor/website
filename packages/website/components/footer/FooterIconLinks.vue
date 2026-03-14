@@ -1,38 +1,5 @@
 <script setup lang="ts">
-import type { RuiIcons } from '@rotki/ui-library';
-
-const {
-  public: {
-    contact: { emailMailto, twitter, discord, github },
-  },
-} = useRuntimeConfig();
-
-const menus: { title: string; showText: boolean; href: string; icon: RuiIcons }[] = [
-  {
-    title: 'Telegram',
-    showText: false,
-    href: github,
-    icon: 'lu-message-circle',
-  },
-  {
-    title: 'Twitter',
-    showText: false,
-    href: twitter,
-    icon: 'lu-x-twitter',
-  },
-  {
-    title: 'Discord',
-    showText: false,
-    href: discord,
-    icon: 'lu-discord',
-  },
-  {
-    title: 'Contact',
-    showText: true,
-    href: emailMailto,
-    icon: 'lu-mail',
-  },
-];
+const menus: { title: string; showText: boolean; href: string; icon: string }[] = [];
 </script>
 
 <template>

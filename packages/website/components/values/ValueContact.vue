@@ -5,43 +5,18 @@ const { t } = useI18n({ useScope: 'global' });
 
 const {
   public: {
-    contact: { emailMailto, email, twitter, discord, github },
+    contact: { emailMailto: _emailMailto, email: _email, twitter: _twitter, discord: _discord, github: _github },
   },
 } = useRuntimeConfig();
 
-const contacts: { title: string; description: string; href: string; icon: RuiIcons; linkLabel?: string }[] = [
-  {
-    title: 'Email',
-    description: t('values.contact_section.email.description'),
-    href: emailMailto,
-    icon: 'lu-mail',
-    linkLabel: email,
-  },
-  {
-    title: 'Twitter',
-    description: t('values.contact_section.twitter.description'),
-    href: twitter,
-    icon: 'lu-x-twitter',
-    linkLabel: '@defivestors',
-  },
-  {
-    title: 'Discord',
-    description: t('values.contact_section.discord.description'),
-    href: discord,
-    icon: 'lu-discord',
-  },
-  {
-    title: 'Telegram',
-    description: t('values.contact_section.github.description'),
-    href: github,
-    icon: 'lu-message-circle',
-    linkLabel: '@defivestors',
-  },
-];
+const contacts: { title: string; description: string; href: string; icon: RuiIcons; linkLabel?: string }[] = [];
 </script>
 
 <template>
-  <div class="py-10 md:py-20">
+  <div
+    v-if="contacts.length > 0"
+    class="py-10 md:py-20"
+  >
     <div class="container space-y-10 md:space-y-16">
       <div>
         <div class="text-h6 text-rui-primary mb-3">

@@ -22,7 +22,6 @@ definePageMeta({
         <div class="border-t border-rui-grey-200" />
       </div>
     </div>
-    <ValueContact />
     <ProductsFooter />
   </div>
 </template>
