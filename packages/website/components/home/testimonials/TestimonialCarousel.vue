@@ -11,20 +11,8 @@ const swiper = ref<Swiper>();
 const pages = ref(get(swiper)?.snapGrid.length ?? 1);
 const activeIndex = ref((get(swiper)?.activeIndex ?? 0) + 1);
 
-// Initially show only first 6 testimonials for faster loading
-const visibleTestimonials = ref(props.testimonials.slice(0, 6));
-
-// Load remaining testimonials after carousel is ready
-onMounted(() => {
-  nextTick(() => {
-    if (props.testimonials.length > 6) {
-      // Load remaining testimonials with a small delay to prioritize initial render
-      setTimeout(() => {
-        visibleTestimonials.value = props.testimonials;
-      }, 100);
-    }
-  });
-});
+// Show all testimonials immediately - build-time rendering handles loading
+const visibleTestimonials = ref(props.testimonials);
 
 const breakpoints: Record<number, SwiperOptions> = {
   // when window width is >= 320px
