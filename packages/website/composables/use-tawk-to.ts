@@ -22,7 +22,7 @@ export function useTawkToWidget() {
   const isActivePage = computed<boolean>(() =>
     activeRoutes.some(activeRoute =>
       route.path === activeRoute || route.path.startsWith(`${activeRoute}/`),
-    )
+    ),
   );
 
   const shouldLoadWidget = computed<boolean>(() => {

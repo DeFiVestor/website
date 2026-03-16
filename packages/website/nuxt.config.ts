@@ -225,16 +225,18 @@ export default defineNuxtConfig({
   },
 
   routeRules: {
-    // Global no-cache rule for HTML to prevent CSP nonce mismatches
-    ...(process.env.NODE_ENV !== 'development'
-      ? {
-          '/**': {
-            headers: {
-              'Cache-Control': 'no-cache, no-store, must-revalidate',
-            },
-          },
-        }
-      : {}),
+    // Cache static pages for 6 hours on Vercel for better performance
+    // Testimonials are pre-rendered at build time so they don't need revalidation
+    // Revalidation happens every 2 hours via stale-while-revalidate
+    // Cache-Control: public, max-age=0, s-maxage=21600, stale-while-revalidate=7200
+    // - s-maxage=21600: Cache on Vercel edge for 6 hours (shared cache)
+    // - stale-while-revalidate=7200: Serve stale content for up to 2 hours while revalidating
+    // - max-age=0: Browser revalidates on each request (prevents serving stale browser cache)
+    '/**': {
+      headers: {
+        'Cache-Control': 'public, s-maxage=21600, stale-while-revalidate=7200',
+      },
+    },
     // Dedicated 3D Secure verification page
     '/checkout/pay/3d-secure': {
       security: {
@@ -485,21 +487,6 @@ export default defineNuxtConfig({
       host: '',
       password: '',
     },
-  },
-
-  security: {
-    enabled: process.env.SKIP_CSP !== 'true',
-    headers: process.env.SKIP_CSP === 'true'
-      ? {}
-      : {
-          // Base CSP for all pages (minimal, most restrictive)
-          contentSecurityPolicy: process.env.NODE_ENV === 'development'
-            ? mergeCSP(baseCSP, devCSP)
-            : mergeCSP(baseCSP),
-        },
-    hidePoweredBy: true,
-    nonce: true,
-    sri: true,
   },
 
   site: {

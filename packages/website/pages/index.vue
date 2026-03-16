@@ -23,19 +23,19 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'Organization',
-        name: 'DeFiVestor',
-        url: 'https://defivestor.com',
-        logo: 'https://defivestor.com/android-chrome-192x192.png',
+        'name': 'DeFiVestor',
+        'url': 'https://defivestor.com',
+        'logo': 'https://defivestor.com/android-chrome-192x192.png',
         description,
-        sameAs: [
+        'sameAs': [
           'https://twitter.com/defivestors',
           'https://t.me/defivestors',
           'https://discord.defivestor.com',
         ],
-        contactPoint: {
+        'contactPoint': {
           '@type': 'ContactPoint',
-          email: 'info@defivestor.com',
-          contactType: 'customer service',
+          'email': 'info@defivestor.com',
+          'contactType': 'customer service',
         },
       }),
     },
@@ -44,12 +44,12 @@ useHead({
       innerHTML: JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'WebSite',
-        name: 'DeFiVestor',
-        url: 'https://defivestor.com',
+        'name': 'DeFiVestor',
+        'url': 'https://defivestor.com',
         description,
-        potentialAction: {
+        'potentialAction': {
           '@type': 'SearchAction',
-          target: 'https://defivestor.com/search?q={search_term_string}',
+          'target': 'https://defivestor.com/search?q={search_term_string}',
           'query-input': 'required name=search_term_string',
         },
       }),

@@ -21,17 +21,17 @@ When you visit our website, your browser automatically sends data to us known as
 
 ##### Cookies
 
-Cookies are small files containing a unique identifier that are stored on your device. DeFiVestor uses cookies to enhance your browsing experience, remember your preferences, and analyze how our Service is used.  
+Cookies are small files containing a unique identifier that are stored on your device. DeFiVestor uses cookies to enhance your browsing experience, remember your preferences, and analyze how our Service is used.
 You can choose to accept or decline cookies. If you refuse cookies, some portions of our Service may not function as intended.
 
 ##### Service Providers
 
 We may engage third-party service providers for the following reasons:
 
-- To facilitate our Service;  
-- To host or maintain the platform;  
-- To provide the Service on our behalf;  
-- To perform Service-related functions; or  
+- To facilitate our Service;
+- To host or maintain the platform;
+- To provide the Service on our behalf;
+- To perform Service-related functions; or
 - To help us analyze usage data and improve user experience.
 
 These third parties are granted access only to the information necessary to perform their assigned tasks and are obligated not to disclose or use it for any other purpose.
@@ -46,12 +46,12 @@ Our Service may contain links to external websites. If you click a third-party l
 
 ##### Children’s Privacy
 
-Our Services are not directed toward individuals under the age of 13. We do not knowingly collect personal information from minors.  
+Our Services are not directed toward individuals under the age of 13. We do not knowingly collect personal information from minors.
 If we discover that a child under 13 has submitted personal information to us, we will promptly delete it. If you are a parent or guardian and believe your child has provided us with personal data, please contact us immediately so that we can take appropriate action.
 
 ##### Changes to This Privacy Policy
 
-We may update our Privacy Policy periodically. Any changes will be posted on this page with an updated effective date. We encourage you to review this page regularly to stay informed about how we protect your data.  
+We may update our Privacy Policy periodically. Any changes will be posted on this page with an updated effective date. We encourage you to review this page regularly to stay informed about how we protect your data.
 Changes take effect immediately upon posting the revised Privacy Policy.
 
 ##### Contact Us

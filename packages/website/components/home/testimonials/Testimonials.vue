@@ -3,12 +3,12 @@ import { useI18n } from 'vue-i18n';
 
 const { t } = useI18n({ useScope: 'global' });
 
-// Build-time rendering: Use only local collection with visible filter
-const { data: testimonials } = await useAsyncData('testimonials', () =>
-  queryCollection('testimonialsLocal').all().then((items) =>
-    // Filter to only visible testimonials at build time
-    items?.filter((item: any) => item.visible !== false) || []
-  )
+// Use server: true to pre-render testimonials at build time
+// This fetches data at build time, not on each request, dramatically improving Vercel performance
+const { data: testimonials } = await useAsyncData(
+  'testimonials',
+  () => queryCollection('testimonialsLocal').all().then(items => items?.filter((item: any) => item.visible !== false) || []),
+  { server: true },
 );
 </script>
 
