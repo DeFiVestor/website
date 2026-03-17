@@ -39,7 +39,7 @@ onMounted(() => {
   // Create and inject the script
   const script = document.createElement('script');
   script.async = true;
-  script.src = 'https://embed.tawk.to/6912dbab8102a1195f148da4/1j9oqk5s0';
+  script.src = 'https://embed.tawk.to/69b82d5d5404a11c372321ac/1jjrn2g50';
   script.charset = 'UTF-8';
   script.setAttribute('crossorigin', '*');
 

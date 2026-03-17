@@ -12,6 +12,9 @@ const activeRoutes = [
   '/about-us',
   '/integrations',
   '/jobs',
+  '/jobs/backend',
+  '/jobs/frontend',
+  '/jobs/ui-ux',
   '/privacy-policy',
   '/tos',
 ] as const;

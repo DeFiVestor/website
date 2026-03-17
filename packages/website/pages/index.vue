@@ -76,7 +76,6 @@ definePageMeta({
   />
   <HomeBanner />
   <FeatureList />
-  <Testimonials />
   <PremiumFeatures />
   <AvailablePlans />
   <ProductsFooter />
